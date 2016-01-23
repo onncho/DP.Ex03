@@ -7,6 +7,6 @@ namespace FacebookApplication
 {
     interface IFetcher
     {
-        string getCategory(string i_name);
+        object getFieldFilter(object i_Object, string i_propName);
     }
 }

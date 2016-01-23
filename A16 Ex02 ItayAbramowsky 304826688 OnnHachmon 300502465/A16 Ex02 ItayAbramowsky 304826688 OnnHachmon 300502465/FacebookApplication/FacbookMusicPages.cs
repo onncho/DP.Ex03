@@ -5,10 +5,11 @@ using System.Text;
 using FacebookWrapper.ObjectModel;
 using FacebookWrapper;
 using System.Collections;
+using System.Reflection;
 
 namespace FacebookApplication
 {
-    public class FacbookMusicPages
+    public class FacbookMusicPages : IFetcher
     {
         private User m_LoggedUser;
 
@@ -19,6 +20,7 @@ namespace FacebookApplication
         PagesFilter m_PagesCollection;
 
         IEnumerator m_PagesIterateCollection;
+
 
         public FacbookMusicPages(User i_LoggedUser)
         {
@@ -34,24 +36,22 @@ namespace FacebookApplication
 
             while (m_PagesIterateCollection.MoveNext())
             {
-                // Add here template Method or strategy
+                // TODO: Add here template Method or strategy
                 Page page = m_PagesIterateCollection.Current as Page;
-                if (page.Category == "Musician/Band")
+
+                // TODO: Change To Parameter
+                if ((string) (getFieldFilter(page , "Category")) == "Musician/Band")
                 {
                     MusicPagesList.Add(page);
                 }
             }
-
-            /*
-            foreach (Page page in m_LoggedUser.LikedPages)
-            {
-
-                if (page.Category == "Musician/Band")
-                {
-                    MusicPagesList.Add(page);
-                }
-            }
-             */
         }
+
+
+        public object getFieldFilter(object i_Object, string i_propName)
+        {
+            return i_Object.GetType().GetProperty(i_propName).GetValue(i_Object, null);
+        }
+
     }
 }

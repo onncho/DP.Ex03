@@ -20,14 +20,10 @@ namespace FacebookApplication
     {
         private User m_LoggedUser;
         private bool v_FormOpen;
-        private FacbookFilterPages m_FacebookMusicPages;
+        private FacbookMusicPages m_FacebookMusicPages;
         private YouTubeProxy m_YouTubeProxy;
         private YouTubeVideo m_CurrentVideo;
         private Page m_CurrentPage;
-
-        private LikedPages m_LikedPages;
-        private FacbookObjectIterator m_PagesCollection;
-        
 
         /// <param name="i_LoggedUser"> get user object from the main form</param>
         public FormMusic(User i_LoggedUser)
@@ -39,12 +35,7 @@ namespace FacebookApplication
             if (i_LoggedUser != null)
             {
                 m_LoggedUser = i_LoggedUser;
-
-                m_LikedPages = new LikedPages(m_LoggedUser);
-                //m_FacebookMusicPages = new FacbookFilterPages(m_LoggedUser, getFacebookObjectCollection(m_LoggedUser));
-                m_PagesCollection = new FacbookObjectIterator(m_LikedPages);
-                m_FacebookMusicPages = new FacbookFilterPages(m_PagesCollection as IEnumerable);
-
+                m_FacebookMusicPages = new FacbookMusicPages(m_LoggedUser);
                 m_YouTubeProxy = new YouTubeProxy();
 
                 initMusicForm();
@@ -141,6 +132,5 @@ namespace FacebookApplication
                 youTubeProxyVideoListBindingSource.DataSource = m_YouTubeProxy.YouTubeVideoList;
             }
         }
-
     }
 }

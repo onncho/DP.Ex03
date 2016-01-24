@@ -1,0 +1,10 @@
+==========================Exercise Checking Report========================== 
+Exercise No...........: <02>
+First Student Details.: <304826688> - <Itay Abramowsky>
+Second Student Details: <300502465> - <Onn Hachmon>
+Delivery Date.........: <03.01.16>
+Delivered In Delay....: <Yes>
+Delay Reason..........: <Bugs>
+Visual Studio Version.: <2013 pro>
+Comments..............: <External Dll's>
+=======================End Exercise Checking Report=========================

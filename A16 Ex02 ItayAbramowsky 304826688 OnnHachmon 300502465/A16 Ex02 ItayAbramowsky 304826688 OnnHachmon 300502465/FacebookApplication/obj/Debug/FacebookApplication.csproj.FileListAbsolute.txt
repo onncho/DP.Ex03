@@ -1,7 +1,4 @@
 C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\bin\Debug\FacebookApplication.exe.config
-C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\obj\Debug\Interop.ShockwaveFlashObjects.dll
-C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
-C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\obj\Debug\FacebookApplication.csproj.ResolveComReference.cache
 C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\bin\Debug\FacebookApplication.exe
 C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\bin\Debug\FacebookApplication.pdb
 C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\bin\Debug\BouncyCastle.Crypto.dll
@@ -56,6 +53,9 @@ C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex
 C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\bin\Debug\Interop.ShockwaveFlashObjects.dll
 C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\bin\Debug\AxInterop.ShockwaveFlashObjects.dll
 C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\obj\Debug\FacebookApplication.csprojResolveAssemblyReference.cache
+C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\obj\Debug\Interop.ShockwaveFlashObjects.dll
+C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\obj\Debug\AxInterop.ShockwaveFlashObjects.dll
+C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\obj\Debug\FacebookApplication.csproj.ResolveComReference.cache
 C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\obj\Debug\FacebookApplication.AnalysisProgressBar.resources
 C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\obj\Debug\FacebookApplication.FormMain.resources
 C:\Sources\DP.Ex03\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\A16 Ex02 ItayAbramowsky 304826688 OnnHachmon 300502465\FacebookApplication\obj\Debug\FacebookApplication.LikeAnalyzerForm.resources

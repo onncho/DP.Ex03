@@ -56,11 +56,11 @@ namespace FacebookApplication
         }
     }
 
-    public class DecoratorRedBackground : DecoratedButton
+    public class DecoratorSetBackground : DecoratedButton
     {
         private Color m_Color;
 
-        public DecoratorRedBackground (IDecoratedButton i_DecoratedButton, Color i_Color) : base(i_DecoratedButton)
+        public DecoratorSetBackground (IDecoratedButton i_DecoratedButton, Color i_Color) : base(i_DecoratedButton)
         {
             m_Color = i_Color;
         }

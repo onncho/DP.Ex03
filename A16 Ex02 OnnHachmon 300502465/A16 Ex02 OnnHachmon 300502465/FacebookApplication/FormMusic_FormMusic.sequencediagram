@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SequenceDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" dslVersion="1.0.0.0" Id="382028de-297d-457d-bc86-77db269e79b9" name="FormMusic_FormMusic" mode="DotNet" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner">
+  <packagedElements>
+    <packageHasNamedElement>
+      <interaction Id="3f72361b-c4ea-4a3b-a6b3-eb7c30a0b058" name="FormMusic_FormMusic" collapseFragmentsFlag="false" isActiveClass="false" isAbstract="false" isLeaf="false" isReentrant="false">
+        <fragments>
+          <behaviorExecutionSpecification Id="13bd9b5d-4065-4ab1-95be-a0d94cf857b2" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="161b52e7-3bc9-47a9-802b-225d0423f093" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="1fadc8fd-0ade-4537-b611-da48f8140163" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="9fcd614d-c2a4-4a31-8bbd-c19352a6f727" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="fdafd27b-75dc-4963-beb9-d7b9b366fb12" LastKnownName="MessageOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="7ce26e99-bd57-4f9c-af1d-d50760c56467" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="2e5d9559-4840-448f-b6d5-99cbcc119785" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="a1319b88-fb28-4752-a5b4-6b75c8e0d682" LastKnownName="OperandOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="d092ca70-d9da-4db2-8ed7-0778b2ebc4b8" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="adbafadb-9116-4d43-a889-01f40e207f02" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="3b707a2a-b3cc-4cbe-a95a-79411417bb79" LastKnownName="MessageOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="9e8742a6-22d9-4f39-a494-a0d5881e7798" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="1ab2cceb-9a2d-49e8-8b14-3212bfd46c34" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="75f907d7-3069-41df-89a1-aa74c867f12b" LastKnownName="OperandOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="1fadc8fd-0ade-4537-b611-da48f8140163" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="99cf0ffb-ce8e-4f4a-af8c-45166742377e" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <lostFoundTarget Id="9fa75875-d00b-4df7-8fcf-8bc7a583e2d0" name="LostFoundTarget" />
+          <messageOccurrenceSpecification Id="9fcd614d-c2a4-4a31-8bbd-c19352a6f727" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="fdafd27b-75dc-4963-beb9-d7b9b366fb12" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="9cfbe2c8-9798-4cb3-bcb7-7cd4389f5b5c" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="2e5d9559-4840-448f-b6d5-99cbcc119785" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="7ce26e99-bd57-4f9c-af1d-d50760c56467" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="85d1734c-7008-4333-b3d1-7fcf10296c25" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="7ce26e99-bd57-4f9c-af1d-d50760c56467" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="b91fb05d-2f75-4d7a-ae43-a0593f912ec0" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="85d1734c-7008-4333-b3d1-7fcf10296c25" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="2e5d9559-4840-448f-b6d5-99cbcc119785" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="266f2d1f-c25c-4cda-a618-20b2c656c273" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <combinedFragment Id="c9440579-9ea9-4c81-a7e4-382100d176eb" name="CombinedFragment1" interactionOperator="Opt" customInteractionOperator="If">
+            <coveredLifelines>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+              <lifelineMoniker Id="ee031818-9e4d-4e68-9b25-624c353ee7cf" LastKnownName="this.m_YouTubeProxy : YouTubeProxy" />
+              <lifelineMoniker Id="0aa72ede-a571-46ce-9345-b8dde33c879c" LastKnownName="this.m_PagesCollection : PagesCollectionIterator" />
+              <lifelineMoniker Id="69f0024a-dd24-4b73-b7d0-df2e7c9bdb9c" LastKnownName="ToList&lt;TSource&gt; : List&lt;Page&gt;" />
+            </coveredLifelines>
+            <operands>
+              <interactionOperand Id="70f98e90-6b22-40f2-a7c3-13c06320aa9c" name="InteractionOperand1">
+                <coveredLifelines>
+                  <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+                  <lifelineMoniker Id="ee031818-9e4d-4e68-9b25-624c353ee7cf" LastKnownName="this.m_YouTubeProxy : YouTubeProxy" />
+                  <lifelineMoniker Id="0aa72ede-a571-46ce-9345-b8dde33c879c" LastKnownName="this.m_PagesCollection : PagesCollectionIterator" />
+                  <lifelineMoniker Id="69f0024a-dd24-4b73-b7d0-df2e7c9bdb9c" LastKnownName="ToList&lt;TSource&gt; : List&lt;Page&gt;" />
+                </coveredLifelines>
+                <guard>
+                  <interactionConstraint Id="37f480a5-44ed-4c77-8721-d5451648d518" guardText="if (i_LoggedUser != null)" />
+                </guard>
+                <operandOccurrenceSpecifications>
+                  <operandOccurrenceSpecificationMoniker Id="a1319b88-fb28-4752-a5b4-6b75c8e0d682" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="75f907d7-3069-41df-89a1-aa74c867f12b" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="2dbab121-2b0d-4dd8-89d2-89222f0c16d1" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="dc333cb4-105c-4a15-82b8-8025b3f5c678" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="c57adf25-3184-45bb-a3ce-0fb155c1e6a5" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="0c1478db-c002-455a-975a-db35e8e2f120" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="beb83328-3b8a-4a71-b3e5-41e7c4fcfc2c" LastKnownName="OperandOccurrenceSpecification" />
+                  <operandOccurrenceSpecificationMoniker Id="5d9f0c6f-485e-4ba0-9dcd-04b3b8679e1e" LastKnownName="OperandOccurrenceSpecification" />
+                </operandOccurrenceSpecifications>
+              </interactionOperand>
+            </operands>
+          </combinedFragment>
+          <operandOccurrenceSpecification Id="2dbab121-2b0d-4dd8-89d2-89222f0c16d1" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="ee031818-9e4d-4e68-9b25-624c353ee7cf" LastKnownName="this.m_YouTubeProxy : YouTubeProxy" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="a1319b88-fb28-4752-a5b4-6b75c8e0d682" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="beb83328-3b8a-4a71-b3e5-41e7c4fcfc2c" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="69f0024a-dd24-4b73-b7d0-df2e7c9bdb9c" LastKnownName="ToList&lt;TSource&gt; : List&lt;Page&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="c57adf25-3184-45bb-a3ce-0fb155c1e6a5" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="0aa72ede-a571-46ce-9345-b8dde33c879c" LastKnownName="this.m_PagesCollection : PagesCollectionIterator" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="4438ebb6-a655-4990-b168-5108f515fbfb" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="ee031818-9e4d-4e68-9b25-624c353ee7cf" LastKnownName="this.m_YouTubeProxy : YouTubeProxy" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="669c9f1b-2b9d-4342-a9bf-4eb4a1936172" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="2b1bcf00-dde8-4f3c-8527-75410d68aacd" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="d384e79d-b328-45b3-a0ba-9e87f5faa54b" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="85f31936-8208-4c9b-a15c-f4d1bc15c839" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="2b1bcf00-dde8-4f3c-8527-75410d68aacd" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="c6792034-f1a1-4d9f-a185-cd35e51c5ef1" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ee031818-9e4d-4e68-9b25-624c353ee7cf" LastKnownName="this.m_YouTubeProxy : YouTubeProxy" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="d092ca70-d9da-4db2-8ed7-0778b2ebc4b8" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="d384e79d-b328-45b3-a0ba-9e87f5faa54b" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="ee031818-9e4d-4e68-9b25-624c353ee7cf" LastKnownName="this.m_YouTubeProxy : YouTubeProxy" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="adbafadb-9116-4d43-a889-01f40e207f02" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="85f31936-8208-4c9b-a15c-f4d1bc15c839" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="ee031818-9e4d-4e68-9b25-624c353ee7cf" LastKnownName="this.m_YouTubeProxy : YouTubeProxy" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="669c9f1b-2b9d-4342-a9bf-4eb4a1936172" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="360d5e0b-e100-4307-a007-a25f5261d31f" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="ee031818-9e4d-4e68-9b25-624c353ee7cf" LastKnownName="this.m_YouTubeProxy : YouTubeProxy" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="3b707a2a-b3cc-4cbe-a95a-79411417bb79" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="6a10b1bd-ce53-4055-ac7e-5b9af295dd33" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="1ab2cceb-9a2d-49e8-8b14-3212bfd46c34" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="9e8742a6-22d9-4f39-a494-a0d5881e7798" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="de03acff-0d1f-4127-b850-583ed4bc9f1a" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="892ddd2c-4644-4319-950c-ba73077b2d17" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="2e4d4213-2de3-4754-841e-3112fc087686" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="9e8742a6-22d9-4f39-a494-a0d5881e7798" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="58e4005c-7b0a-40c2-9586-7f277a1326e7" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="de03acff-0d1f-4127-b850-583ed4bc9f1a" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="8f22f3ea-1455-4671-a0a4-11b4e52b4e56" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="0aa72ede-a571-46ce-9345-b8dde33c879c" LastKnownName="this.m_PagesCollection : PagesCollectionIterator" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="de0ebcd9-5af3-478f-bf71-3c334b488a31" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="b9e5066e-9cb5-4997-bd0d-a34745678558" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="51de6c57-fb76-48c7-838f-e8adcf32a6a1" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="dc7fd546-f061-4c9f-97a3-5fd9de54a047" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="cc6e0f0a-4c8c-4ffe-a0e6-1311c16c7e32" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="b1ed28aa-7566-4b95-bb00-35e52e73eea9" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="b9e5066e-9cb5-4997-bd0d-a34745678558" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="fbd4a6aa-a0da-4cf8-8ffa-3cf52097aff1" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="0aa72ede-a571-46ce-9345-b8dde33c879c" LastKnownName="this.m_PagesCollection : PagesCollectionIterator" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="892ddd2c-4644-4319-950c-ba73077b2d17" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="51de6c57-fb76-48c7-838f-e8adcf32a6a1" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="0aa72ede-a571-46ce-9345-b8dde33c879c" LastKnownName="this.m_PagesCollection : PagesCollectionIterator" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <behaviorExecutionSpecification Id="88b06261-ed31-4556-abe3-3c332718ae72" name="BehaviorExecutionSpecification">
+            <coveredLifelines>
+              <lifelineMoniker Id="69f0024a-dd24-4b73-b7d0-df2e7c9bdb9c" LastKnownName="ToList&lt;TSource&gt; : List&lt;Page&gt;" />
+            </coveredLifelines>
+            <finish>
+              <executionOccurrenceSpecificationMoniker Id="bedc3bf4-1724-4b73-a32a-b3de735d11a2" LastKnownName="ExecutionOccurrenceSpecification" />
+            </finish>
+            <start>
+              <executionOccurrenceSpecificationMoniker Id="ee630437-b9fa-4c3c-bbda-7cc82c10a8e5" LastKnownName="ExecutionOccurrenceSpecification" />
+            </start>
+            <nestedOccurrences>
+              <messageOccurrenceSpecificationMoniker Id="57380f2a-8711-4396-bf75-23936931fdac" LastKnownName="MessageOccurrenceSpecification" />
+              <messageOccurrenceSpecificationMoniker Id="28a3e5a2-71a0-4bc8-b20c-5e505c352736" LastKnownName="MessageOccurrenceSpecification" />
+            </nestedOccurrences>
+          </behaviorExecutionSpecification>
+          <executionOccurrenceSpecification Id="ee630437-b9fa-4c3c-bbda-7cc82c10a8e5" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="0c1f05b9-f7df-4392-86be-4d824f8e1954" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="69f0024a-dd24-4b73-b7d0-df2e7c9bdb9c" LastKnownName="ToList&lt;TSource&gt; : List&lt;Page&gt;" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="57380f2a-8711-4396-bf75-23936931fdac" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="69f0024a-dd24-4b73-b7d0-df2e7c9bdb9c" LastKnownName="ToList&lt;TSource&gt; : List&lt;Page&gt;" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="dc7fd546-f061-4c9f-97a3-5fd9de54a047" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="0aa72ede-a571-46ce-9345-b8dde33c879c" LastKnownName="this.m_PagesCollection : PagesCollectionIterator" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="28a3e5a2-71a0-4bc8-b20c-5e505c352736" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="69f0024a-dd24-4b73-b7d0-df2e7c9bdb9c" LastKnownName="ToList&lt;TSource&gt; : List&lt;Page&gt;" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="cc6e0f0a-4c8c-4ffe-a0e6-1311c16c7e32" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="0aa72ede-a571-46ce-9345-b8dde33c879c" LastKnownName="this.m_PagesCollection : PagesCollectionIterator" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="bedc3bf4-1724-4b73-a32a-b3de735d11a2" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="0ff853cb-99ac-48e8-8690-05c0ed84ab88" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="69f0024a-dd24-4b73-b7d0-df2e7c9bdb9c" LastKnownName="ToList&lt;TSource&gt; : List&lt;Page&gt;" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="2e4d4213-2de3-4754-841e-3112fc087686" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <messageOccurrenceSpecification Id="b1ed28aa-7566-4b95-bb00-35e52e73eea9" name="MessageOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="0aa72ede-a571-46ce-9345-b8dde33c879c" LastKnownName="this.m_PagesCollection : PagesCollectionIterator" />
+            </covered>
+          </messageOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="de0ebcd9-5af3-478f-bf71-3c334b488a31" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="d99bef52-038e-4858-bb44-e32c54b44d1a" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="0aa72ede-a571-46ce-9345-b8dde33c879c" LastKnownName="this.m_PagesCollection : PagesCollectionIterator" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="1ab2cceb-9a2d-49e8-8b14-3212bfd46c34" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="978bd436-62a0-4eca-8447-e934a77578f9" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </executionOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="dc333cb4-105c-4a15-82b8-8025b3f5c678" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="ee031818-9e4d-4e68-9b25-624c353ee7cf" LastKnownName="this.m_YouTubeProxy : YouTubeProxy" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="75f907d7-3069-41df-89a1-aa74c867f12b" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="5d9f0c6f-485e-4ba0-9dcd-04b3b8679e1e" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="69f0024a-dd24-4b73-b7d0-df2e7c9bdb9c" LastKnownName="ToList&lt;TSource&gt; : List&lt;Page&gt;" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <operandOccurrenceSpecification Id="0c1478db-c002-455a-975a-db35e8e2f120" name="OperandOccurrenceSpecification">
+            <covered>
+              <lifelineMoniker Id="0aa72ede-a571-46ce-9345-b8dde33c879c" LastKnownName="this.m_PagesCollection : PagesCollectionIterator" />
+            </covered>
+          </operandOccurrenceSpecification>
+          <executionOccurrenceSpecification Id="161b52e7-3bc9-47a9-802b-225d0423f093" name="ExecutionOccurrenceSpecification">
+            <event>
+              <executionOccurrenceSpecificationReferencesEvent>
+                <executionEventMoniker Id="5c88f713-47c1-453e-9ed7-6ce844eea517" LastKnownName="ExecutionEvent" />
+              </executionOccurrenceSpecificationReferencesEvent>
+            </event>
+            <covered>
+              <lifelineMoniker Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" LastKnownName="this : FormMusic" />
+            </covered>
+          </executionOccurrenceSpecification>
+        </fragments>
+        <lifelines>
+          <lifeline Id="87c38743-1b9d-4bf2-a5d3-03c917a40bca" name="this : FormMusic" isActor="false" lifelineDisplayName="this : FormMusic" referencedInstance="(Assembly=&quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&quot; Namespace=FacebookApplication Type=FormMusic ObjectInstance=&quot;Object instance 2&quot;)" referencedType="FacebookApplication‎.FormMusic">
+            <referencesInternal>
+              <reference Id="fc5f6e19-5962-45a0-9283-e9494245e0c3" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=FacebookApplication)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&amp;quot; Namespace=FacebookApplication Type=FormMusic)&quot;)" tag="DGQL" />
+              <reference Id="085938c1-8a6b-459a-977a-63cb045cdd40" handle="(Assembly=&quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&quot; Namespace=FacebookApplication Type=FormMusic)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <executionOccurrenceSpecificationMoniker Id="1fadc8fd-0ade-4537-b611-da48f8140163" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="161b52e7-3bc9-47a9-802b-225d0423f093" LastKnownName="ExecutionOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="ee031818-9e4d-4e68-9b25-624c353ee7cf" name="this.m_YouTubeProxy : YouTubeProxy" isActor="false" lifelineDisplayName="this.m_YouTubeProxy : YouTubeProxy" referencedInstance="(Assembly=&quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&quot; Namespace=FacebookApplication Type=YouTubeProxy ObjectInstance=&quot;Object instance 417&quot;)" referencedType="FacebookApplication‎.YouTubeProxy">
+            <referencesInternal>
+              <reference Id="327e0afd-474a-4b58-8e21-83d58fc560c3" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=FacebookApplication)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&amp;quot; Namespace=FacebookApplication Type=YouTubeProxy)&quot;)" tag="DGQL" />
+              <reference Id="c07a33a4-97c5-4b13-b0a3-39d436733a93" handle="(Assembly=&quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&quot; Namespace=FacebookApplication Type=YouTubeProxy)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker Id="2dbab121-2b0d-4dd8-89d2-89222f0c16d1" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="2b1bcf00-dde8-4f3c-8527-75410d68aacd" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="669c9f1b-2b9d-4342-a9bf-4eb4a1936172" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="dc333cb4-105c-4a15-82b8-8025b3f5c678" LastKnownName="OperandOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="0aa72ede-a571-46ce-9345-b8dde33c879c" name="this.m_PagesCollection : PagesCollectionIterator" isActor="false" lifelineDisplayName="this.m_PagesCollection : PagesCollectionIterator" referencedInstance="(Assembly=&quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&quot; Namespace=FacebookApplication Type=PagesCollectionIterator ObjectInstance=&quot;Object instance 420&quot;)" referencedType="FacebookApplication‎.PagesCollectionIterator">
+            <referencesInternal>
+              <reference Id="4922835f-7c92-44c9-a00d-f5a647b2186b" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=FacebookApplication)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&amp;quot; Namespace=FacebookApplication Type=PagesCollectionIterator)&quot;)" tag="DGQL" />
+              <reference Id="048f17a3-b1d7-46bf-90bb-c6f5a7041b73" handle="(Assembly=&quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&quot; Namespace=FacebookApplication Type=PagesCollectionIterator)" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker Id="c57adf25-3184-45bb-a3ce-0fb155c1e6a5" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="b9e5066e-9cb5-4997-bd0d-a34745678558" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="de0ebcd9-5af3-478f-bf71-3c334b488a31" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="0c1478db-c002-455a-975a-db35e8e2f120" LastKnownName="OperandOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+          <lifeline Id="69f0024a-dd24-4b73-b7d0-df2e7c9bdb9c" name="ToList&lt;TSource&gt; : List&lt;Page&gt;" isActor="false" lifelineDisplayName="ToList&lt;TSource&gt; : List&lt;Page&gt;" referencedInstance="(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/System.Core.dll&quot; Namespace=System.Linq Type=Enumerable Member=(Name=ToList GenericParameterCount=1 OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System.Collections.Generic Type=(Name=IEnumerable GenericParameterCount=1 GenericArguments=[(ParameterIdentifier=0)]))]) ObjectInstance=&quot;Object instance 424&quot;)" referencedType="System‎.Collections‎.Generic‎.List‎&lt;Page‎&gt;">
+            <referencesInternal>
+              <reference Id="cbb84d53-fd02-4703-985a-5d9dbc77f604" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=System.Collections.Generic)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&amp;quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1))&quot;)" tag="DGQL" />
+              <reference Id="808a9f6d-ab9a-4392-a836-147dd084b184" handle="(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1))" tag="DGML" />
+            </referencesInternal>
+            <topLevelOccurrences>
+              <operandOccurrenceSpecificationMoniker Id="beb83328-3b8a-4a71-b3e5-41e7c4fcfc2c" LastKnownName="OperandOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="ee630437-b9fa-4c3c-bbda-7cc82c10a8e5" LastKnownName="ExecutionOccurrenceSpecification" />
+              <executionOccurrenceSpecificationMoniker Id="bedc3bf4-1724-4b73-a32a-b3de735d11a2" LastKnownName="ExecutionOccurrenceSpecification" />
+              <operandOccurrenceSpecificationMoniker Id="5d9f0c6f-485e-4ba0-9dcd-04b3b8679e1e" LastKnownName="OperandOccurrenceSpecification" />
+            </topLevelOccurrences>
+          </lifeline>
+        </lifelines>
+        <messages>
+          <message Id="88792ef3-0a67-48a8-99a7-f4662cfe6da5" name="Create FormMusic" messageKind="Found" messageSort="AsynchCall" createSelfMessage="false">
+            <referencesInternal>
+              <reference Id="c6173531-12ba-4ac2-b305-ddbf524592aa" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=FacebookApplication)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&amp;quot; Namespace=FacebookApplication Type=FormMusic)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&amp;quot; Namespace=FacebookApplication Type=FormMusic Member=(Name=.ctor OverloadingParameters=[(Assembly=&amp;quot;$(VsSolutionUri)/FacebookApplication/External Dlls/Old/FbGraphApiWrapper.dll&amp;quot; Namespace=FacebookWrapper.ObjectModel Type=User)]))&quot;)" tag="DGQL" />
+              <reference Id="8c761f3e-ae0c-44a4-8529-a71d2f0128fc" handle="(Assembly=&quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&quot; Namespace=FacebookApplication Type=FormMusic Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;$(VsSolutionUri)/FacebookApplication/External Dlls/Old/FbGraphApiWrapper.dll&quot; Namespace=FacebookWrapper.ObjectModel Type=User)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <lostFoundTargetMoniker Id="9fa75875-d00b-4df7-8fcf-8bc7a583e2d0" LastKnownName="LostFoundTarget" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="9fcd614d-c2a4-4a31-8bbd-c19352a6f727" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="178e3206-59cc-49ab-b5e5-0b6601929274" name="InitializeComponent" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true" signatureText="InitializeComponent()">
+            <referencesInternal>
+              <reference Id="75a4e934-0534-4453-a9f1-5f6479d45ce5" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=FacebookApplication)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&amp;quot; Namespace=FacebookApplication Type=FormMusic)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&amp;quot; Namespace=FacebookApplication Type=FormMusic Member=InitializeComponent)&quot;)" tag="DGQL" />
+              <reference Id="d0f50a00-5e4a-4b63-b9d7-027972b6609e" handle="(Assembly=&quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&quot; Namespace=FacebookApplication Type=FormMusic Member=InitializeComponent)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="fdafd27b-75dc-4963-beb9-d7b9b366fb12" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="85d1734c-7008-4333-b3d1-7fcf10296c25" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="3f01888b-4b1d-4061-8c4b-516fb47e0f81" name="Create YouTubeProxy" messageKind="Complete" messageSort="CreateMessage" createSelfMessage="false" signatureText="new YouTubeProxy()">
+            <referencesInternal>
+              <reference Id="383679e3-e98b-4824-8fba-f12c10fbf29f" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=FacebookApplication)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&amp;quot; Namespace=FacebookApplication Type=YouTubeProxy)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&amp;quot; Namespace=FacebookApplication Type=YouTubeProxy Member=.ctor)&quot;)" tag="DGQL" />
+              <reference Id="9ba2493a-884f-4fd0-ad01-43b166829a96" handle="(Assembly=&quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&quot; Namespace=FacebookApplication Type=YouTubeProxy Member=.ctor)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="d092ca70-d9da-4db2-8ed7-0778b2ebc4b8" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="d384e79d-b328-45b3-a0ba-9e87f5faa54b" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="72f7bf57-a805-4907-ac0f-420f8d975106" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="85f31936-8208-4c9b-a15c-f4d1bc15c839" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="adbafadb-9116-4d43-a889-01f40e207f02" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="89f0261e-d299-4f36-ab60-5adadf2024ff" name="initMusicForm" messageKind="Complete" messageSort="SynchCall" createSelfMessage="true" signatureText="initMusicForm()">
+            <referencesInternal>
+              <reference Id="d6ebeca9-2108-4638-96df-a2f2b0d81118" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=FacebookApplication)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&amp;quot; Namespace=FacebookApplication Type=FormMusic)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&amp;quot; Namespace=FacebookApplication Type=FormMusic Member=initMusicForm)&quot;)" tag="DGQL" />
+              <reference Id="f1d7596f-75f5-43a2-b29d-2d58120ccee3" handle="(Assembly=&quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&quot; Namespace=FacebookApplication Type=FormMusic Member=initMusicForm)" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="3b707a2a-b3cc-4cbe-a95a-79411417bb79" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="de03acff-0d1f-4127-b850-583ed4bc9f1a" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="9983a951-46d2-4355-9df6-055610cb430e" name="Create PagesCollectionIterator" messageKind="Complete" messageSort="CreateMessage" createSelfMessage="false" signatureText="new PagesCollectionIterator(m_LoggedUser, &quot;Musician/Band&quot;)">
+            <referencesInternal>
+              <reference Id="40070479-5ea6-4be3-9494-f90ffe7fd706" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=FacebookApplication)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&amp;quot; Namespace=FacebookApplication Type=PagesCollectionIterator)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&amp;quot; Namespace=FacebookApplication Type=PagesCollectionIterator Member=(Name=.ctor OverloadingParameters=[(Assembly=&amp;quot;$(VsSolutionUri)/FacebookApplication/External Dlls/Old/FbGraphApiWrapper.dll&amp;quot; Namespace=FacebookWrapper.ObjectModel Type=User),(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&amp;quot; Namespace=System Type=String)]))&quot;)" tag="DGQL" />
+              <reference Id="66f8f7fa-1248-49dd-9e29-b0fcfc14c001" handle="(Assembly=&quot;$(7b48947b-7614-4f15-a37e-5f05b496f1c2.OutputPathUri)&quot; Namespace=FacebookApplication Type=PagesCollectionIterator Member=(Name=.ctor OverloadingParameters=[(Assembly=&quot;$(VsSolutionUri)/FacebookApplication/External Dlls/Old/FbGraphApiWrapper.dll&quot; Namespace=FacebookWrapper.ObjectModel Type=User),(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=String)]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="892ddd2c-4644-4319-950c-ba73077b2d17" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="51de6c57-fb76-48c7-838f-e8adcf32a6a1" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="90019454-f22b-4e22-b11d-1bfdac0b816d" name="FindAll" messageKind="Complete" messageSort="SynchCall" createSelfMessage="false" signatureText="m_LoggedUser.LikedPages.ToList().FindAll((Page page) =&gt; page.Category == i_CategoryField)">
+            <referencesInternal>
+              <reference Id="3b0b459d-915d-4ab8-9ccf-5e6351090690" handle="+ Id.Equals(&quot;Microsoft.Solution.ClassView&quot;) /&#xD;&#xA;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Namespace=System.Collections.Generic)&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&amp;quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1))&quot;)/&#xD;&#xA;&quot;Microsoft.Contains&quot;/&#xD;&#xA;+ Id.EqualsIgnoreCase(&quot;(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&amp;quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1) Member=(Name=FindAll OverloadingParameters=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&amp;quot; Namespace=System Type=(Name=Predicate GenericParameterCount=1 GenericArguments=[(Assembly=&amp;quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&amp;quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1) ParameterIdentifier=0)]))]))&quot;)" tag="DGQL" />
+              <reference Id="5fe2505c-a4ba-42f0-be00-62e7f7ad9512" handle="(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1) Member=(Name=FindAll OverloadingParameters=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System Type=(Name=Predicate GenericParameterCount=1 GenericArguments=[(Assembly=&quot;$(FxReferenceAssembliesUri)/.NETFramework/v4.0/mscorlib.dll&quot; Namespace=System.Collections.Generic Type=(Name=List GenericParameterCount=1) ParameterIdentifier=0)]))]))" tag="DGML" />
+            </referencesInternal>
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="dc7fd546-f061-4c9f-97a3-5fd9de54a047" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="57380f2a-8711-4396-bf75-23936931fdac" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="b02cb8a1-6261-450c-8674-632108bc3f52" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="28a3e5a2-71a0-4bc8-b20c-5e505c352736" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="cc6e0f0a-4c8c-4ffe-a0e6-1311c16c7e32" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+          <message Id="a808d7ce-a0c7-45cb-b203-5f9a1660b59d" name="&lt;&lt;return&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+            <sendEvent>
+              <messageOccurrenceSpecificationMoniker Id="b1ed28aa-7566-4b95-bb00-35e52e73eea9" LastKnownName="MessageOccurrenceSpecification" />
+            </sendEvent>
+            <receiveEvent>
+              <messageOccurrenceSpecificationMoniker Id="2e4d4213-2de3-4754-841e-3112fc087686" LastKnownName="MessageOccurrenceSpecification" />
+            </receiveEvent>
+          </message>
+        </messages>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="99cf0ffb-ce8e-4f4a-af8c-45166742377e" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="5c88f713-47c1-453e-9ed7-6ce844eea517" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="b91fb05d-2f75-4d7a-ae43-a0593f912ec0" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="266f2d1f-c25c-4cda-a618-20b2c656c273" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="c6792034-f1a1-4d9f-a185-cd35e51c5ef1" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="360d5e0b-e100-4307-a007-a25f5261d31f" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="58e4005c-7b0a-40c2-9586-7f277a1326e7" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="978bd436-62a0-4eca-8447-e934a77578f9" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="fbd4a6aa-a0da-4cf8-8ffa-3cf52097aff1" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="d99bef52-038e-4858-bb44-e32c54b44d1a" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="0c1f05b9-f7df-4392-86be-4d824f8e1954" name="ExecutionEvent" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <executionEvent Id="0ff853cb-99ac-48e8-8690-05c0ed84ab88" name="ExecutionEvent" />
+    </packageHasNamedElement>
+  </packagedElements>
+</SequenceDesignerModel>

@@ -136,17 +136,17 @@ namespace FacebookApplication
         private void FormMusic_Load(object sender, EventArgs e)
         {
             // Decorator
-            m_YoutubeButton = new DecoratorText(new DecoratorRedBackground(new DecoratorFont(new CoreButton(buttonYouTubeChannel)), Color.Crimson), "YouTube Channel");
+            m_YoutubeButton = new DecoratorText(new DecoratorSetBackground(new DecoratorFont(new CoreButton(buttonYouTubeChannel)), Color.Crimson), "YouTube Channel");
             buttonYouTubeChannel.Visible = false;
             m_YoutubeButton.Execute();
 
             // Decorator
-            m_FacbookPageButton = new DecoratorText(new DecoratorRedBackground(new DecoratorFont(new CoreButton(buttonLinkToPage)), Color.FromArgb(((int)(((byte)59))), ((int)((byte)89)), ((int)((byte)152)))), "Facebook Page");
+            m_FacbookPageButton = new DecoratorText(new DecoratorSetBackground(new DecoratorFont(new CoreButton(buttonLinkToPage)), Color.FromArgb(((int)(((byte)59))), ((int)((byte)89)), ((int)((byte)152)))), "Facebook Page");
             buttonLinkToPage.Visible = false;
             m_FacbookPageButton.Execute();
 
             // Decorator
-            m_ChromeButton = new DecoratorText(new DecoratorRedBackground(new DecoratorFont(new CoreButton(buttonPlayVideoOnYouTube)), Color.FromArgb(((int)((byte)252)), ((int)((byte)183)), ((int)((byte)0)))), "Play on Browser");
+            m_ChromeButton = new DecoratorText(new DecoratorSetBackground(new DecoratorFont(new CoreButton(buttonPlayVideoOnYouTube)), Color.FromArgb(((int)((byte)252)), ((int)((byte)183)), ((int)((byte)0)))), "Play on Browser");
             buttonPlayVideoOnYouTube.Visible = false;
             m_ChromeButton.Execute();
         }

@@ -179,6 +179,9 @@
     <EmbeddedResource Include="FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormMusic_FormMusic.sequencediagram.layout">
+      <DependentUpon>FormMusic_FormMusic.sequencediagram</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LikeAnalyzerForm.resx">
       <DependentUpon>LikeAnalyzerForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -196,6 +199,7 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.config" />
+    <None Include="FormMusic_FormMusic.sequencediagram" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\FacebookWrapper.ObjectModel.Event.datasource" />
     <None Include="Properties\DataSources\FacebookWrapper.ObjectModel.Page.datasource" />

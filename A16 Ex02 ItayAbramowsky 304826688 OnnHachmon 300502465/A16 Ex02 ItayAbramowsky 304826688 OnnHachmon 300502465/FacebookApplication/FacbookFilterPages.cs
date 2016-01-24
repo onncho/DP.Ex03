@@ -9,25 +9,29 @@ using System.Reflection;
 
 namespace FacebookApplication
 {
-    public class FacbookMusicPages : IFetcher
+    public class FacbookFilterPages
     {
         private User m_LoggedUser;
 
-        //public IFetcher Fetcher { get; set; }
+        public IFetcher Fetcher;
 
         public List<Page> MusicPagesList { get; set; }
 
-        PagesFilter m_PagesCollection;
+        FacbookObjectIterator m_PagesCollection;
 
         IEnumerator m_PagesIterateCollection;
 
+        
 
-        public FacbookMusicPages(User i_LoggedUser)
+
+        public FacbookFilterPages(IEnumerable i_Fetcher)
         {
-            m_LoggedUser = i_LoggedUser;
-
-            m_PagesCollection = new PagesFilter(m_LoggedUser);
-            m_PagesIterateCollection = (m_PagesCollection as IEnumerable).GetEnumerator();
+            //m_LoggedUser = i_LoggedUser;
+            //Fetcher = i_Fetcher;
+            m_PagesIterateCollection = i_Fetcher.GetEnumerator();
+            
+            //m_PagesCollection = new PagesIterator(Fetcher);
+            //m_PagesIterateCollection = (m_PagesCollection as IEnumerable).GetEnumerator();
         }
         
         public void fetch()
@@ -47,11 +51,9 @@ namespace FacebookApplication
             }
         }
 
-
-        public object getFieldFilter(object i_Object, string i_propName)
+        private object getFieldFilter(object i_Object, string i_propName)
         {
             return i_Object.GetType().GetProperty(i_propName).GetValue(i_Object, null);
         }
-
     }
 }

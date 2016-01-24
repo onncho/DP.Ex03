@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using FacebookWrapper.ObjectModel;
+using FacebookWrapper;
 
 namespace FacebookApplication
 {
-    interface IFetcher
+    public interface IFetcher
     {
-        object getFieldFilter(object i_Object, string i_propName);
+        object getFacebookObjectCollection();
     }
 }

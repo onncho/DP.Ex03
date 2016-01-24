@@ -10,17 +10,29 @@ namespace FacebookApplication
 {
 
     // The concrete aggregate. 
-    public class PagesFilter : IEnumerable
+    public class FacbookObjectIterator : IEnumerable
     {
+        public IFetcher Fetcher { get; set; }
+        
+        List<object> m_FacebookObject;
+        //User m_loogedUser;
+
        // private readonly List<Page> m_AllPages;
         private FacebookObjectCollection<Page> m_MusicPages;
-        public int Count { get; private set; }
+       // public int Count { get; private set; }
 
-        public PagesFilter(User i_User)
+        public FacbookObjectIterator(IFetcher i_Fetcher)
         {
+            Fetcher = i_Fetcher;
+            //m_loogedUser = i_LoggedUser;
+            
+            m_FacebookObject = Fetcher.getFacebookObjectCollection() as List<object>;
+
+
+            
             // TODO: Add Filter To Music
-            m_MusicPages = i_User.LikedPages;
-            Count = m_MusicPages.Count;
+            //m_MusicPages = i_User.LikedPages;
+            //Count = m_MusicPages.Count;
         }
 
         public IEnumerator GetEnumerator()
@@ -31,12 +43,12 @@ namespace FacebookApplication
         // The ConcreteIterator.
         private class PageFeatureNameIterator : IEnumerator
         {
-            private PagesFilter m_PageFeatures;
+            private FacbookObjectIterator m_PageFeatures;
 
             private int m_CurrentIndex = -1;
             private int m_Count = -1;
 
-            public PageFeatureNameIterator(PagesFilter i_Collection)
+            public PageFeatureNameIterator(FacbookObjectIterator i_Collection)
             {
                 m_PageFeatures = i_Collection;
                 m_Count = m_PageFeatures.m_MusicPages.Count;

@@ -12,6 +12,7 @@ using System.Xml.Serialization;
 using System.Threading;
 using FacebookWrapper.ObjectModel;
 using FacebookWrapper;
+using System.Collections;
 
 namespace FacebookApplication
 {
@@ -21,6 +22,8 @@ namespace FacebookApplication
         private string m_PathOfAppDataFile = string.Format("{0}\\{1}", AppDomain.CurrentDomain.BaseDirectory, "Facebook App Config.txt");
         private User m_LoggedInUser;  
         private ApplicationConfigurationData m_AppConfig;
+
+        IEnumerable m_PagesCollection;
 
         // added static factory class for the like analyzer form and the music form.
         public FormMain()
@@ -134,6 +137,10 @@ namespace FacebookApplication
             threadEventFetch.IsBackground = true;
             threadEventFetch.Start();
 
+            Thread threadSportPage = new Thread(new ThreadStart(fetchSportPages));
+            threadSportPage.IsBackground = true;
+            threadSportPage.Start();
+
             Thread threadNewsFeedFetch = new Thread(new ThreadStart(fetchNewsfeed));
             threadNewsFeedFetch.IsBackground = true;
             threadNewsFeedFetch.Start();
@@ -148,16 +155,32 @@ namespace FacebookApplication
             }
         }
 
-        private void fetchEvent()
+
+        private void fetchSportPages()
         {
-            var userEvents = m_LoggedInUser.Events;
-            if (!listBoxEvents.InvokeRequired)
+            m_PagesCollection = new PagesCollectionIterator(m_LoggedInUser, "Sports Team");
+
+            if (!listBoxSportsTeams.InvokeRequired)
             {
-                eventsBindingSource.DataSource = userEvents;                
+                pageSportBindingSource.DataSource = m_PagesCollection;
             }
             else
             {
-                listBoxEvents.Invoke(new Action(() => eventsBindingSource.DataSource = userEvents));
+                listBoxSportsTeams.Invoke(new Action(() => pageSportBindingSource.DataSource = m_PagesCollection));
+            }
+            
+        }
+
+        private void fetchEvent()
+        {
+            var userEvents = m_LoggedInUser.Events;
+            if (!listBoxSportsTeams.InvokeRequired)
+            {
+                pageSportBindingSource.DataSource = userEvents;                
+            }
+            else
+            {
+                listBoxSportsTeams.Invoke(new Action(() => pageSportBindingSource.DataSource = userEvents));
             }
         }
 

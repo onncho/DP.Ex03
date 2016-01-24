@@ -8,50 +8,43 @@ using System.Collections;
 
 namespace FacebookApplication
 {
-    public class FacbookMusicPages
+    public class FacbookCategoryPages
     {
         private User m_LoggedUser;
 
         //public IFetcher Fetcher { get; set; }
 
-        public List<Page> MusicPagesList { get; set; }
+        public List<Page> PagesList { get; set; }
 
-        PagesFilter m_PagesCollection;
+        PagesCollectionIterator m_PagesCollection;
 
         IEnumerator m_PagesIterateCollection;
 
-        public FacbookMusicPages(User i_LoggedUser)
+        string m_CategoryField;
+
+        public FacbookCategoryPages(User i_LoggedUser)
         {
             m_LoggedUser = i_LoggedUser;
 
-            m_PagesCollection = new PagesFilter(m_LoggedUser);
+            m_PagesCollection = new PagesCollectionIterator(m_LoggedUser, " ");
             m_PagesIterateCollection = (m_PagesCollection as IEnumerable).GetEnumerator();
+
         }
         
         public void fetch()
         {
-            MusicPagesList = new List<Page>();
+            PagesList = new List<Page>();
 
             while (m_PagesIterateCollection.MoveNext())
             {
                 // Add here template Method or strategy
                 Page page = m_PagesIterateCollection.Current as Page;
-                if (page.Category == "Musician/Band")
+                m_CategoryField = "";
+                if (m_CategoryField == "Musician/Band")
                 {
-                    MusicPagesList.Add(page);
+                    PagesList.Add(page);
                 }
             }
-
-            /*
-            foreach (Page page in m_LoggedUser.LikedPages)
-            {
-
-                if (page.Category == "Musician/Band")
-                {
-                    MusicPagesList.Add(page);
-                }
-            }
-             */
         }
     }
 }

@@ -145,7 +145,7 @@
       <DependentUpon>AnalysisProgressBar.cs</DependentUpon>
     </Compile>
     <Compile Include="ApplicationConfigurationData.cs" />
-    <Compile Include="FacbookMusicPages.cs" />
+    <Compile Include="FacbookCategoryPages.cs" />
     <Compile Include="FormFacebookFactory.cs" />
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
@@ -167,7 +167,7 @@
     <Compile Include="FormMusic.Designer.cs">
       <DependentUpon>FormMusic.cs</DependentUpon>
     </Compile>
-    <Compile Include="PagesFilter.cs" />
+    <Compile Include="PagesCollectionIterator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SaveLoadUtil.cs" />

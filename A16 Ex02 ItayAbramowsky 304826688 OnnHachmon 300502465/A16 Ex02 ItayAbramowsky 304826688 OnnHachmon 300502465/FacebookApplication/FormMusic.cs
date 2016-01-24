@@ -20,10 +20,13 @@ namespace FacebookApplication
     {
         private User m_LoggedUser;
         private bool v_FormOpen;
-        private FacbookMusicPages m_FacebookMusicPages;
+        private FacbookCategoryPages m_FacebookMusicPages;
         private YouTubeProxy m_YouTubeProxy;
         private YouTubeVideo m_CurrentVideo;
         private Page m_CurrentPage;
+
+        IEnumerable m_PagesCollection;
+        IEnumerator m_PagesIterateCollection;
 
         /// <param name="i_LoggedUser"> get user object from the main form</param>
         public FormMusic(User i_LoggedUser)
@@ -35,7 +38,9 @@ namespace FacebookApplication
             if (i_LoggedUser != null)
             {
                 m_LoggedUser = i_LoggedUser;
-                m_FacebookMusicPages = new FacbookMusicPages(m_LoggedUser);
+                m_FacebookMusicPages = new FacbookCategoryPages(m_LoggedUser);
+
+
                 m_YouTubeProxy = new YouTubeProxy();
 
                 initMusicForm();
@@ -58,8 +63,18 @@ namespace FacebookApplication
         // load the user profile picture and init welcome message
         private void initMusicForm()
         {
+            // Startegy - implemenet using lambda expression
+            
+
+            // TODO 
+            m_PagesCollection = new PagesCollectionIterator(m_LoggedUser, "Musician/Band");
+            //m_PagesIterateCollection = (m_PagesCollection as IEnumerable).GetEnumerator();
+            
+            
+            
+
             // collect
-            m_FacebookMusicPages.fetch();
+            //m_FacebookMusicPages.fetch();
 
             profileName.Text = string.Format("Hello {0}", m_LoggedUser.Name);
 
@@ -68,7 +83,8 @@ namespace FacebookApplication
                 profileImage.LoadAsync(m_LoggedUser.PictureNormalURL);
             }
 
-            pageBindingSource.DataSource = m_FacebookMusicPages.MusicPagesList;
+            pageBindingSource.DataSource = m_PagesCollection;
+            //pageBindingSource.DataSource = m_FacebookMusicPages.PagesList;
         }
             
         private void buttonYouTubeChannel_Click(object sender, EventArgs e)

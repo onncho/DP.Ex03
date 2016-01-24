@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ApplicationConfigurationData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <AccessToken>CAALZCSwZAwhDMBAEyVkdOR3lvq351xXS5KZAcdof7mB2m3hw7kvZAYCooVipBCvrFqfk5ZCarle8XnsmfBpoZAHs3ELAG6S2AWFAZAr1gNAVbe12Rk7FZAYcLX65gO6VhaJOMpQ077lVHOgoKaB5W9dvbofUNmoMoZB1ZA5wxtxs4lZBwALT2gDshZBubBOBNHZA9GRbAVOP7fSLEOAZDZD</AccessToken>
-  <RememberMe>true</RememberMe>
-</ApplicationConfigurationData>

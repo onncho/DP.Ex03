@@ -14,6 +14,7 @@ using FacebookWrapper;
 using YouTubeSearch;
 using System.Collections;
 
+
 namespace FacebookApplication
 {
     public partial class FormMusic : Form
@@ -26,13 +27,15 @@ namespace FacebookApplication
         private Page m_CurrentPage;
 
         IEnumerable m_PagesCollection;
-        IEnumerator m_PagesIterateCollection;
+        IDecoratedButton m_YoutubeButton;
+        IDecoratedButton m_FacbookPageButton;
+        IDecoratedButton m_ChromeButton;
 
         /// <param name="i_LoggedUser"> get user object from the main form</param>
         public FormMusic(User i_LoggedUser)
         {
             InitializeComponent();
-
+            
             v_FormOpen = true;
 
             if (i_LoggedUser != null)
@@ -147,6 +150,25 @@ namespace FacebookApplication
                 m_YouTubeProxy.Musician = m_CurrentPage.Name;
                 youTubeProxyVideoListBindingSource.DataSource = m_YouTubeProxy.YouTubeVideoList;
             }
+        }
+
+        private void FormMusic_Load(object sender, EventArgs e)
+        {
+            // Decorator
+            m_YoutubeButton = new DecoratorText(new DecoratorRedBackground(new DecoratorFont(new CoreButton(buttonYouTubeChannel)), Color.Crimson), "YouTube Channel");
+            buttonYouTubeChannel.Visible = false;
+            m_YoutubeButton.Execute();
+
+            // Decorator
+            m_FacbookPageButton = new DecoratorText(new DecoratorRedBackground(new DecoratorFont(new CoreButton(buttonLinkToPage)), Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(152)))))), "Facebook Page");
+            buttonLinkToPage.Visible = false;
+            m_FacbookPageButton.Execute();
+
+            // Decorator
+            m_ChromeButton = new DecoratorText(new DecoratorRedBackground(new DecoratorFont(new CoreButton(buttonPlayVideoOnYouTube)), Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(183)))), ((int)(((byte)(0)))))), "Play on Browser");
+            buttonPlayVideoOnYouTube.Visible = false;
+            m_ChromeButton.Execute();
+
         }
     }
 }

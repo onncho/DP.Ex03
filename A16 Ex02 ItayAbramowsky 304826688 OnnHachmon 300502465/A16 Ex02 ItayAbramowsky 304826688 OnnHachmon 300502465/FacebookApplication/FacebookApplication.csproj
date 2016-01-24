@@ -153,6 +153,7 @@
     <Compile Include="FormMain.Designer.cs">
       <DependentUpon>FormMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="IDecoratedButton.cs" />
     <Compile Include="IFetcher.cs" />
     <Compile Include="LikeAnalyzer.cs" />
     <Compile Include="LikeAnalyzerForm.cs">

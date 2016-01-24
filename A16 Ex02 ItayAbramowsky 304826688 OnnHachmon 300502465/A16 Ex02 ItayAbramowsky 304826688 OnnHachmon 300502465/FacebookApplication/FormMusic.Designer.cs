@@ -38,6 +38,7 @@
             this.buttonYouTubeChannel = new System.Windows.Forms.Button();
             this.profileName = new System.Windows.Forms.Label();
             this.ListBoxMusicianVideos = new System.Windows.Forms.ListBox();
+            this.youTubeProxyVideoListBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.buttonPlayVideoOnYouTube = new System.Windows.Forms.Button();
             this.buttonLinkToPage = new System.Windows.Forms.Button();
             this.pictureBoxYouTube = new System.Windows.Forms.PictureBox();
@@ -48,17 +49,16 @@
             this.nameLabel1 = new System.Windows.Forms.Label();
             this.imageNormalPictureBox = new System.Windows.Forms.PictureBox();
             this.likesCountLabel1 = new System.Windows.Forms.Label();
-            this.youTubeProxyVideoListBindingSource = new System.Windows.Forms.BindingSource(this.components);
             likesCountLabel = new System.Windows.Forms.Label();
             nameLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pageBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.youTubeProxyVideoListBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxYouTube)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFacebook)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.profileImage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ShockwaveFlashPlayerBox)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imageNormalPictureBox)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.youTubeProxyVideoListBindingSource)).BeginInit();
             this.SuspendLayout();
             // 
             // likesCountLabel
@@ -102,14 +102,14 @@
             // 
             // buttonYouTubeChannel
             // 
-            this.buttonYouTubeChannel.BackColor = System.Drawing.Color.Crimson;
-            this.buttonYouTubeChannel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonYouTubeChannel.BackColor = System.Drawing.Color.Gray;
+            this.buttonYouTubeChannel.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonYouTubeChannel.ForeColor = System.Drawing.Color.White;
             this.buttonYouTubeChannel.Location = new System.Drawing.Point(723, 3);
             this.buttonYouTubeChannel.Name = "buttonYouTubeChannel";
             this.buttonYouTubeChannel.Size = new System.Drawing.Size(135, 58);
             this.buttonYouTubeChannel.TabIndex = 5;
-            this.buttonYouTubeChannel.Text = "YouTube Channel";
+            this.buttonYouTubeChannel.Text = "Defualt";
             this.buttonYouTubeChannel.UseVisualStyleBackColor = false;
             this.buttonYouTubeChannel.Click += new System.EventHandler(this.buttonYouTubeChannel_Click);
             // 
@@ -141,29 +141,34 @@
             this.ListBoxMusicianVideos.TabIndex = 10;
             this.ListBoxMusicianVideos.ValueMember = "VideoKey";
             // 
+            // youTubeProxyVideoListBindingSource
+            // 
+            this.youTubeProxyVideoListBindingSource.DataSource = typeof(FacebookApplication.YouTubeVideo);
+            this.youTubeProxyVideoListBindingSource.CurrentChanged += new System.EventHandler(this.youTubeProxyVideoListBindingSource_CurrentChanged);
+            // 
             // buttonPlayVideoOnYouTube
             // 
-            this.buttonPlayVideoOnYouTube.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(252)))), ((int)(((byte)(183)))), ((int)(((byte)(0)))));
-            this.buttonPlayVideoOnYouTube.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonPlayVideoOnYouTube.BackColor = System.Drawing.Color.Gray;
+            this.buttonPlayVideoOnYouTube.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonPlayVideoOnYouTube.ForeColor = System.Drawing.Color.White;
             this.buttonPlayVideoOnYouTube.Location = new System.Drawing.Point(651, 58);
             this.buttonPlayVideoOnYouTube.Name = "buttonPlayVideoOnYouTube";
             this.buttonPlayVideoOnYouTube.Size = new System.Drawing.Size(135, 58);
             this.buttonPlayVideoOnYouTube.TabIndex = 11;
-            this.buttonPlayVideoOnYouTube.Text = "Play In Browser";
+            this.buttonPlayVideoOnYouTube.Text = "Defualt";
             this.buttonPlayVideoOnYouTube.UseVisualStyleBackColor = false;
             this.buttonPlayVideoOnYouTube.Click += new System.EventHandler(this.buttonPlayVideoOnYouTube_Click);
             // 
             // buttonLinkToPage
             // 
-            this.buttonLinkToPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(59)))), ((int)(((byte)(89)))), ((int)(((byte)(152)))));
-            this.buttonLinkToPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonLinkToPage.BackColor = System.Drawing.Color.Gray;
+            this.buttonLinkToPage.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonLinkToPage.ForeColor = System.Drawing.Color.White;
             this.buttonLinkToPage.Location = new System.Drawing.Point(792, 58);
             this.buttonLinkToPage.Name = "buttonLinkToPage";
             this.buttonLinkToPage.Size = new System.Drawing.Size(135, 58);
             this.buttonLinkToPage.TabIndex = 13;
-            this.buttonLinkToPage.Text = "Facebook Page";
+            this.buttonLinkToPage.Text = "Default";
             this.buttonLinkToPage.UseVisualStyleBackColor = false;
             this.buttonLinkToPage.Click += new System.EventHandler(this.buttonLinkToPage_Click);
             // 
@@ -248,11 +253,6 @@
             this.likesCountLabel1.TabIndex = 3;
             this.likesCountLabel1.Text = "label1";
             // 
-            // youTubeProxyVideoListBindingSource
-            // 
-            this.youTubeProxyVideoListBindingSource.DataSource = typeof(FacebookApplication.YouTubeVideo);
-            this.youTubeProxyVideoListBindingSource.CurrentChanged += new System.EventHandler(this.youTubeProxyVideoListBindingSource_CurrentChanged);
-            // 
             // FormMusic
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -277,7 +277,9 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "MusicForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MusicForm_FormClosing);
+            this.Load += new System.EventHandler(this.FormMusic_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pageBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.youTubeProxyVideoListBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxYouTube)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxFacebook)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.profileImage)).EndInit();
@@ -285,7 +287,6 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imageNormalPictureBox)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.youTubeProxyVideoListBindingSource)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

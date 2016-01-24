@@ -133,10 +133,6 @@ namespace FacebookApplication
                 pictureCoverPhoto.LoadAsync(m_LoggedInUser.Cover.SourceURL);
             }
 
-            Thread threadEventFetch = new Thread(new ThreadStart(fetchEvent));
-            threadEventFetch.IsBackground = true;
-            threadEventFetch.Start();
-
             Thread threadSportPage = new Thread(new ThreadStart(fetchSportPages));
             threadSportPage.IsBackground = true;
             threadSportPage.Start();
@@ -171,18 +167,6 @@ namespace FacebookApplication
             
         }
 
-        private void fetchEvent()
-        {
-            var userEvents = m_LoggedInUser.Events;
-            if (!listBoxSportsTeams.InvokeRequired)
-            {
-                pageSportBindingSource.DataSource = userEvents;                
-            }
-            else
-            {
-                listBoxSportsTeams.Invoke(new Action(() => pageSportBindingSource.DataSource = userEvents));
-            }
-        }
 
         private void fetchNewsfeed()
         {

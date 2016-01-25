@@ -182,6 +182,12 @@
     <EmbeddedResource Include="FormMusic_FormMusic.sequencediagram.layout">
       <DependentUpon>FormMusic_FormMusic.sequencediagram</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormMusic_FormMusic_1.sequencediagram.layout">
+      <DependentUpon>FormMusic_FormMusic_1.sequencediagram</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMusic_FormMusic_Load.sequencediagram.layout">
+      <DependentUpon>FormMusic_FormMusic_Load.sequencediagram</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LikeAnalyzerForm.resx">
       <DependentUpon>LikeAnalyzerForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -200,6 +206,8 @@
     </Compile>
     <None Include="app.config" />
     <None Include="FormMusic_FormMusic.sequencediagram" />
+    <None Include="FormMusic_FormMusic_1.sequencediagram" />
+    <None Include="FormMusic_FormMusic_Load.sequencediagram" />
     <None Include="packages.config" />
     <None Include="Properties\DataSources\FacebookWrapper.ObjectModel.Event.datasource" />
     <None Include="Properties\DataSources\FacebookWrapper.ObjectModel.Page.datasource" />

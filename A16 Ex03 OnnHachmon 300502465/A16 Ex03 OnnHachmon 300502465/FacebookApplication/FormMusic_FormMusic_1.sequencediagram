@@ -512,7 +512,7 @@
               <messageOccurrenceSpecificationMoniker Id="8b10da7e-3fb8-471f-bd84-31b72d2488e2" LastKnownName="MessageOccurrenceSpecification" />
             </receiveEvent>
           </message>
-          <message Id="7f7ce7a8-7739-4b1f-93f3-ae0b83a274a8" name="&lt;&lt;return Iterator&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+          <message Id="7f7ce7a8-7739-4b1f-93f3-ae0b83a274a8" name="&lt;&lt;return Iterator (After Strategy Result)&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
             <sendEvent>
               <messageOccurrenceSpecificationMoniker Id="575213c5-071a-4255-83a7-d5225ec960a7" LastKnownName="MessageOccurrenceSpecification" />
             </sendEvent>
@@ -520,7 +520,7 @@
               <messageOccurrenceSpecificationMoniker Id="e6339b49-362f-47f8-8f83-696c3f5ef256" LastKnownName="MessageOccurrenceSpecification" />
             </receiveEvent>
           </message>
-          <message Id="6742c546-3a85-487a-b8e6-4f8f28ba2870" name="&lt;&lt;return Iterator&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
+          <message Id="6742c546-3a85-487a-b8e6-4f8f28ba2870" name="&lt;&lt;return Iterator After Strategy Algorithem was Calculated&gt;&gt;" messageKind="Complete" messageSort="Reply" createSelfMessage="false">
             <sendEvent>
               <messageOccurrenceSpecificationMoniker Id="fc645ca4-24ac-451f-922e-d2c11707dacb" LastKnownName="MessageOccurrenceSpecification" />
             </sendEvent>

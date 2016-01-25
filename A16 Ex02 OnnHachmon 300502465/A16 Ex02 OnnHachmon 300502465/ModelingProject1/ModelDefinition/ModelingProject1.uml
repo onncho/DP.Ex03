@@ -1,8 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
   dslVersion="1.0.0.0"
   Id="46e2731c-1731-4aec-867e-f1b4e86a236e"
   name="ModelingProject1" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="a8b014a6-d39b-4d93-a518-de4badb479c6">
+      <body>Filtered Pages Return</body>
+    </comment>
+    <comment
+      Id="b1f7e7cc-7f08-45a8-a943-df7b807c1615">
+      <body>Startegy as Lambda Expression</body>
+    </comment>
+  </ownedCommentsInternal>
   <appliedStereotypesInternal>
     <stereotypeInstance
       Id="b0e3af52-6f54-4271-ae43-de6efc5217b0"
@@ -111,6 +121,89 @@
         name="TextTemplateBindings" />
     </packageHasProfileInstances>
   </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="0945306f-c11a-4042-9b26-bf3cadd9b50d"
+        LastKnownName="FacebookApplication"
+        LastKnownLocation="Package_0112.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="4f452886-f850-43eb-96c6-1066ced4b9ef"
+        LastKnownName="FacebookWrapper"
+        LastKnownLocation="Package1_0112.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="a641924d-cf92-4d61-b59f-4d12a758b148"
+        LastKnownName="System"
+        LastKnownLocation="Package3_0112.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="6f796483-abc7-4ccf-827a-3741beea844f"
+        LastKnownName="AxShockwaveFlashObjects"
+        LastKnownLocation="Package6_0112.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="10e227f9-8f04-4c53-aee9-7e618d0b3e87"
+        name="IEnumerable"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="41ee6c7c-6773-4e93-92d6-8a153658bf97"
+        name="IEnumerator"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <interaction
+        Id="94dc90d5-e338-40e1-86fc-c0bc66e2e19e"
+        name="Sequence2"
+        collapseFragmentsFlag="false"
+        isActiveClass="false"
+        isAbstract="false"
+        isLeaf="false"
+        isReentrant="false">
+        <lifelines>
+          <lifeline
+            Id="d3cdd91f-2f43-4e0e-a460-6b82482b858c"
+            name="Lifeline1"
+            isActor="false"
+            lifelineDisplayName="Lifeline1" />
+        </lifelines>
+      </interaction>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <Interface
+        Id="7b7229a5-a24e-40ff-a0c2-c60b60ec06c4"
+        name="IEnumerable"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="8cb66187-3d91-4e4f-8ebf-d8deeedc5e40"
+        name="User (Liked Pages)"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <suppliersInternal>
+          <dependency
+            Id="214bc888-cb30-42a8-bfce-4a67ee52bfe6">
+            <classMoniker
+              Id="3ad751d0-59ff-4248-91ad-16f98dae40a0"
+              LastKnownName="PagesCollectionIterator"
+              LastKnownLocation="Package_0112.uml" />
+          </dependency>
+        </suppliersInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
   <primitiveType
     Id="220a3521-e091-4221-bae9-3ef9018e845c"
     name="Integer"

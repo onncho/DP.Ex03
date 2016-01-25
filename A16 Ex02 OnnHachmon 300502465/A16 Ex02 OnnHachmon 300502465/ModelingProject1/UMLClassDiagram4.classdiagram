@@ -1,0 +1,1169 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner" dslVersion="1.0.0.0" Id="7680de88-2700-41e7-8b78-e7162a9c252e" name="UMLClassDiagram4" linkedPackageId="d8e73b0c-5a62-4694-9572-b26a82c05354" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="8552e523-5917-484c-87c4-cb6fd6e5897c" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="b0e3af52-6f54-4271-ae43-de6efc5217b0" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ea86253c-b35d-458e-ab8a-2a226ff6fef0">
+          <propertyInstance Id="24e6e5a2-507b-46e1-8a4d-abe4c0e93af1" name="BaseName">
+            <elementDefinition Id="4753807d-70f2-4fbf-bf91-cafd786ae70c" />
+          </propertyInstance>
+          <elementDefinition Id="476d218b-560d-4579-8a10-014abe592629" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="11e36219-41da-4ac3-a487-19542fe5eb20">
+          <propertyInstance Id="841d9bcf-1a2b-495e-8452-277e4fd68278" name="ClrAttributes">
+            <elementDefinition Id="b3a9c1db-03f2-4610-b974-670711632d12" />
+          </propertyInstance>
+          <elementDefinition Id="b5ef23d0-21fe-4ca0-8af7-8d9fae172735" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d271ea88-1bfe-4845-b0fc-fb6a7c0d8834">
+          <propertyInstance Id="1b5aefde-26a3-4009-ba1e-732dea023b53" name="Usings">
+            <elementDefinition Id="64180fd1-1e24-4a96-a215-a4ffcdc678bd" />
+          </propertyInstance>
+          <elementDefinition Id="3a265653-7b58-490e-b554-9c11fcb17583" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="782cf2c6-5b7c-46fb-8e85-d6e4613f2cae" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="276f7387-1b97-4b6c-a346-059d29c1b455" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="42a28511-9a00-4e1f-b864-ee48c6927a86">
+          <propertyInstance Id="ae0d6d1b-7a39-404b-a7c8-32ddcbd0cb80" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="be47af8d-7cc1-4fff-aaec-dacea9f2cf48" />
+          </propertyInstance>
+          <elementDefinition Id="4c8f56f9-0967-43a4-81c0-8e8b492d7967" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="607e7089-74a9-41f7-acc2-48b8afdd7bf8">
+          <propertyInstance Id="a9470bd3-cef7-4887-9454-de6e64db235f" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO 12.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="e5812c66-4db6-476e-b749-2ea59a407464" />
+          </propertyInstance>
+          <elementDefinition Id="59d943e4-51aa-4301-b382-8a8d5957d024" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="20a14e50-216e-4e90-b47e-07527d8c9c5b">
+          <propertyInstance Id="b64c762b-cda8-400a-8d10-fcf151856a48" name="ProjectPath" value="ClassTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|EnumTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|InterfaceTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj|StructTemplate=..\ModelingProject1Lib\ModelingProject1Lib.csproj">
+            <elementDefinition Id="27d62b91-927d-4844-a33f-4292c2235150" />
+          </propertyInstance>
+          <elementDefinition Id="58e16c9d-dc79-427a-b916-3e5a3fac9de9" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="ba332d4b-b556-4716-b23b-0f19720046fc">
+          <propertyInstance Id="e19e6d0e-35f6-43cc-8962-9903fc39c6d5" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="735c06e8-638c-4511-89ce-2c9138cc933a" />
+          </propertyInstance>
+          <elementDefinition Id="5bc21ea4-9283-40fb-b2cf-1542220b733b" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="81fbb4d1-79e5-4107-be2e-a61dee08c7e0">
+          <propertyInstance Id="e32c3274-d37a-47e7-a2d3-eb54b4a00e11" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="60b77493-b384-4759-894d-a550a8eca8f1" />
+          </propertyInstance>
+          <elementDefinition Id="9a02b7c2-74af-44a6-b06d-ed2f5be11afa" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="b3a6bada-67e0-4f04-92ec-90512cf6a427">
+          <propertyInstance Id="c02ec6d4-c4bd-434e-a1d1-b46dac62eb03" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="09cc3376-512b-4ae3-b6b1-8b98df58dd7d" />
+          </propertyInstance>
+          <elementDefinition Id="dd9b845d-e448-42a8-a574-bfbd1a786e1c" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="82150f1b-541f-48ea-970a-40628d412942">
+          <propertyInstance Id="79c2f0a2-2563-4d6e-9fc9-779a6ba2b632" name="Parameters">
+            <elementDefinition Id="e5c4bf49-2279-4e59-b73e-fea66f3a7bf3" />
+          </propertyInstance>
+          <elementDefinition Id="cb13e35e-6839-49c4-8811-03663fcc53cd" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="d5102b56-2095-4a7c-8e89-072a17582bda">
+      <profileInstance Id="a760fd72-eb82-434f-bcd9-03c3c9034f7b" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="17941f32-abc0-432c-8e11-b64c722430fe">
+      <profileInstance Id="80b4e743-fcb5-4c15-a5cf-ab2e8f78de6a" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="218c6f1c-5495-4774-803d-fdb4ac634285">
+      <profileInstance Id="6c5bc10f-d17e-4028-be0f-fa866f3db9fb" name="CSharpProfile">
+        <elementDefinition Id="93bd44c0-1043-4f59-988a-9a19ce95e0fe" />
+      </profileInstance>
+      <elementDefinition Id="8a553b6f-98e3-40fe-b9cd-7bfe76a990ef" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="7ffc1b87-bff4-4745-84b1-83e176050542">
+      <profileInstance Id="5475b531-8e37-45f1-9ecc-c0712374317c" name="TextTemplateBindings">
+        <elementDefinition Id="dfcf2fe2-ce4e-4246-9259-88f3d9f963f9" />
+      </profileInstance>
+      <elementDefinition Id="74424291-aaa9-493b-a225-00d9d359b6ed" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <Interface Id="7bb8a3a7-aa15-4001-945a-4d91613016c8" name="IDecoratedButton" isAbstract="false" isLeaf="false">
+        <referencesInternal>
+          <reference Id="a51b47bd-f45d-49a0-b671-df19fdb5ffa2" handle="viewcode://./CodeSchema_Interface?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DIDecoratedButton" tag="ViewCode">
+            <elementDefinition Id="5b6178c8-29ee-413a-8225-1023582d0002" />
+          </reference>
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance Id="a6c7bae4-4d12-434c-a4c7-173964eda363" name="interface" profile="CSharpProfile">
+            <elementDefinition Id="80ea2000-8749-4d91-87f9-9abf59c9b57a" />
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="1653f570-da24-45f3-9c2f-b36d70de66fc">
+                <propertyInstance Id="e3dce9cd-cee2-4a57-9409-4cdd6faff9a6" name="ClrAttributes">
+                  <elementDefinition Id="85b20fcf-f4d0-41bb-859e-d48f251fdf0c" />
+                </propertyInstance>
+                <elementDefinition Id="0db3a903-0e23-47dd-b983-04c59c06a56c" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="f8334972-b952-47e9-9e2c-8bac17e1cb3e">
+                <propertyInstance Id="8114a1cd-02fc-40a6-830f-05a33cf6c26f" name="IsPartial" value="false">
+                  <elementDefinition Id="c36d9b5f-492d-41a0-b2c7-512b9846c1d5" />
+                </propertyInstance>
+                <elementDefinition Id="04dd9c50-09f2-49ee-891f-1f3d65b39dc7" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="e4dd2767-f9bb-45b6-ba8e-b6adfb676892">
+                <propertyInstance Id="9f090210-89a5-4459-a019-616e5cad0433" name="IsUnsafe" value="false">
+                  <elementDefinition Id="8d4c4347-066c-4e18-823a-49f02ced575a" />
+                </propertyInstance>
+                <elementDefinition Id="ba20b89d-c746-4d2e-a8cd-43bc7c13221e" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances Id="5b3cb6ad-f611-4196-af36-15108f72da60">
+                <propertyInstance Id="5d5ed39c-5765-48bb-bf3a-23e4577691c0" name="PackageVisibility" value="internal">
+                  <elementDefinition Id="c18f6180-a062-4722-9e85-ad7708bd16c4" />
+                </propertyInstance>
+                <elementDefinition Id="4ab30f0c-79c1-4500-be1a-f0399d391ad6" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <elementDefinition Id="607d2252-6030-48d4-9dcf-d18a78e1e969" />
+        <ownedOperations>
+          <operation Id="f35e496e-f17a-47ea-9d99-690d86b5ef51" name="Execute" isLeaf="false" isStatic="false" isAbstract="true" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="291b740e-39a6-400d-a749-358254541f43" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DIDecoratedButton Member%3DExecute" tag="ViewCode">
+                <elementDefinition Id="a8c0d13d-9dab-44a3-97a0-c743058804d0" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="f5fd037d-b2e4-4d45-9420-1ae151601850" name="method" profile="CSharpProfile">
+                <elementDefinition Id="b6baf85d-bd83-4a59-8193-5a9ec40c7a14" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="7a2d65e0-674e-4f50-968b-a5ebe18cf601">
+                    <propertyInstance Id="d7e6b967-a74e-459c-bb55-f8a016daaaf1" name="ClrAttributes">
+                      <elementDefinition Id="62933a14-66b3-499b-89ba-c6847cbe3d02" />
+                    </propertyInstance>
+                    <elementDefinition Id="ae1a5b32-d77c-4aab-bd2a-6da663edc29e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6937bf09-3f96-47ad-b721-12f21713ba02">
+                    <propertyInstance Id="445ac750-c886-4da9-8d9f-5723afd262ec" name="IsPartial" value="false">
+                      <elementDefinition Id="112f17bd-6d26-4a5b-8f1c-58565beb15a5" />
+                    </propertyInstance>
+                    <elementDefinition Id="5df115f0-3978-45f0-b3a3-07c4c8a8a498" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="10ef0513-6381-440b-82c2-08ee456ffeaf">
+                    <propertyInstance Id="c056c6d4-68cf-4b22-a0e8-db1baddaff59" name="IsUnsafe" value="false">
+                      <elementDefinition Id="ab3796b5-f517-48de-81b7-a6c2a8d8cfae" />
+                    </propertyInstance>
+                    <elementDefinition Id="409a3bed-f18c-44e9-9deb-7235053e290e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c10939e9-62b1-4708-b82a-6c80052fab0e">
+                    <propertyInstance Id="5a6702a9-c4dc-414e-94d1-73dc4f8219c9" name="Inheritance" value="none">
+                      <elementDefinition Id="eaa1669c-1965-498f-8930-3ace21d6a3c1" />
+                    </propertyInstance>
+                    <elementDefinition Id="168ad683-1ac2-4941-9c65-4c9798a5fd1a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="92c71963-e14c-4de3-8cea-bc9082dcdb86">
+                    <propertyInstance Id="5801cccf-926d-4648-88ec-24df5c5b2861" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="5bdf2a50-1611-4149-9eb5-4d7794b8dc7a" />
+                    </propertyInstance>
+                    <elementDefinition Id="c2649e6d-4c2f-4bb0-89ab-d63a7d811dbe" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3bc9abb7-77e5-4b36-adad-fbfb1e1ced14">
+                    <propertyInstance Id="6ac03de2-67e7-492c-a7e2-4a3204ed32e8" name="params" value="false">
+                      <elementDefinition Id="21cbb6d6-53db-48b6-8f34-1bdc17b2f211" />
+                    </propertyInstance>
+                    <elementDefinition Id="6bc51600-b030-4720-9f2d-e71cf92123e7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="02cbaebe-f3e1-4788-842a-04d1a21e74d9" />
+          </operation>
+        </ownedOperations>
+      </Interface>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b8254b90-e09f-4f53-ab94-2ba735ff2d34" name="CoreButton" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="a01956de-ce67-44f2-9e8a-2a3e05d84561" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DCoreButton" tag="ViewCode">
+            <elementDefinition Id="a1a52f27-0418-441a-9ed3-dacb7ec383d3" />
+          </reference>
+        </referencesInternal>
+        <elementDefinition Id="f6e20fc1-a1c3-47b5-a560-a32188a973cf" />
+        <suppliersInternal>
+          <interfaceRealization Id="57ff4ad2-e528-43c3-9755-8047785b7edb">
+            <interfaceMoniker Id="7bb8a3a7-aa15-4001-945a-4d91613016c8" LastKnownName="IDecoratedButton" />
+            <elementDefinition Id="312c54cf-4511-4231-be66-69f81887abfb" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="ff2a4bdf-7ee8-472b-a080-f0f104a29591" name="m_Button" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="921ec369-e229-458b-8b7a-d741454fa3f5" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DCoreButton Member%3Dm_Button" tag="ViewCode">
+                <elementDefinition Id="98796455-fe39-41b7-a0fc-9b90c66735df" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="653e6a0c-eba3-44f6-9b98-b8aa583b25e3" name="field" profile="CSharpProfile">
+                <elementDefinition Id="88d8e42a-3a9e-4790-8e88-ff3c4973bfb0" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="892ed0e6-6855-4806-98fb-a52411b55100">
+                    <propertyInstance Id="151bce8f-a08e-4b9b-abbe-ef73551ed1f3" name="ClrAttributes">
+                      <elementDefinition Id="25d1085d-19a8-4b6c-9f7b-7d95dfe1ae76" />
+                    </propertyInstance>
+                    <elementDefinition Id="67b3ff97-de3a-47ce-bc53-01e37dde61d6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0f197427-8640-4111-a1d7-7375fcfc51ea">
+                    <propertyInstance Id="11d9c4bf-037e-4617-a30d-fbf680bdae07" name="IsConst" value="false">
+                      <elementDefinition Id="2a52cda1-cd4f-40d3-b511-b0c7a42c7898" />
+                    </propertyInstance>
+                    <elementDefinition Id="9772d303-545b-476d-b9a7-1847f7b670d2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f5669320-1dac-4a53-88d0-a08347e06137">
+                    <propertyInstance Id="0294e7c3-a5d5-483c-8808-ae64479ebdb3" name="IsNullable" value="false">
+                      <elementDefinition Id="8be4c245-740f-4793-acdd-a325b6a50688" />
+                    </propertyInstance>
+                    <elementDefinition Id="85c2666f-1e6e-442a-9c02-3ef495b3db5b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="737e53ff-7910-46c4-baaa-2cfadead6fe3">
+                    <propertyInstance Id="76cce59d-feed-4a4f-b7d6-0c7cc6b976d4" name="IsVolatile" value="false">
+                      <elementDefinition Id="34232d90-0396-434c-9cd1-75c2e5895c86" />
+                    </propertyInstance>
+                    <elementDefinition Id="9b641a1e-2d03-444a-ac77-2f625c15f54b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3a190094-3f5e-44d0-89d9-85327f152745">
+                    <propertyInstance Id="567c3efa-1cdd-4e99-b08b-0e37cdaa703e" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="7fb481e4-2b44-4063-bd67-87c61ed222b3" />
+                    </propertyInstance>
+                    <elementDefinition Id="7b682a38-0dcd-43a2-9118-7b2f3c2e4da3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="deae5bbf-3763-4e6a-9126-b01918a6de51" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bc99b825-b0a6-4812-8e62-5d751ab7c7bc" LastKnownName="Button" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="28d1ca97-2995-4ea7-878d-6ee08c273a80" name="CoreButton" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="28812de7-d7a3-4cf3-adba-6810c35bde7e" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DCoreButton Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DButton)])" tag="ViewCode">
+                <elementDefinition Id="def86ae6-f636-46a2-9ffa-c5a40eea6f3f" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="83ba30c7-f0f4-42b3-bc68-6a1b00c83b29" name="method" profile="CSharpProfile">
+                <elementDefinition Id="ea9eef6b-7867-4e48-8eb4-87dc35e960a6" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="91d1f50c-7bf1-46b3-8566-08d6702e1aa0">
+                    <propertyInstance Id="60831973-eaac-4358-8f06-1195a6159088" name="ClrAttributes">
+                      <elementDefinition Id="c1b74182-a3d7-4d4a-a2c1-dbc5aeb95574" />
+                    </propertyInstance>
+                    <elementDefinition Id="5125397a-e27d-47f2-9cfb-228c5bbd6509" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5af482a0-47ad-4aca-b055-d4ca7d4a748f">
+                    <propertyInstance Id="ec26ce69-af3d-4875-85d7-8ce65b334b44" name="IsPartial" value="false">
+                      <elementDefinition Id="b8a56b81-85f0-4f64-9a2e-5604d12e3716" />
+                    </propertyInstance>
+                    <elementDefinition Id="0bdf1459-273d-4e1d-9170-39723ec2afc1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a75ff7ee-a79f-4ae4-8bd5-1a7f4670a6b1">
+                    <propertyInstance Id="1a83fb7f-c4fb-4b9a-87b5-34be9f928282" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b0d27bc1-117c-428a-9b0e-ce20eb6f2112" />
+                    </propertyInstance>
+                    <elementDefinition Id="70ddcd07-ef99-4efa-97b9-d0e148e89b1c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="39325e54-bff1-4ff7-8d38-f3ac17dedb9f">
+                    <propertyInstance Id="3873c757-a179-426a-8049-5c22de074bdd" name="Inheritance" value="none">
+                      <elementDefinition Id="c2b4a332-e703-4063-8463-a759fee2b7ad" />
+                    </propertyInstance>
+                    <elementDefinition Id="e56a4c25-34aa-437c-a2ed-03c2ff44e03f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a6933297-92e7-4fa6-ade3-3e03da2c7261">
+                    <propertyInstance Id="5e0d3339-4487-49ab-8466-29ff7191a89d" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="f6c8c4c2-063d-4dbb-989d-795290269d76" />
+                    </propertyInstance>
+                    <elementDefinition Id="74ecfaf2-93fd-4566-b364-ac9134b8ba84" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="da282d35-6507-4df0-808f-d3e0fdc1d8c6">
+                    <propertyInstance Id="a0c3ebbf-082f-4aeb-ac77-604243c8ca9b" name="params" value="false">
+                      <elementDefinition Id="3b0872d9-0c4c-4c73-a421-491d2159df21" />
+                    </propertyInstance>
+                    <elementDefinition Id="2b012992-d3d4-4de9-87b4-7548e84f4bb9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="5b751a9f-5ad8-4bf3-9532-b6e9adce2eae" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="124eb36e-92ed-4649-b881-2d60405bbac6" name="i_Button" direction="In">
+                  <referencesInternal>
+                    <reference Id="97a48a64-30ce-41fe-a9d8-4f915223bfdf" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DCoreButton Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.Windows.Forms.dll&quot; Namespace%3DSystem.Windows.Forms Type%3DButton)]) ParameterIdentifier%3Di_Button" tag="ViewCode">
+                      <elementDefinition Id="38a38853-80bc-47e9-84a1-874204447bb1" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="9d8c97d1-52a1-4436-ba73-152566bc9511" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="bc99b825-b0a6-4812-8e62-5d751ab7c7bc" LastKnownName="Button" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="b2b6649a-8e31-40d4-b183-1ed951564de1" name="Execute" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="8eb1bfbe-1b67-40a6-9dfd-7247bb07cbf9" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DCoreButton Member%3DExecute" tag="ViewCode">
+                <elementDefinition Id="d3b2aeac-1679-4174-b0bb-49715a66cd6b" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="a00a4f1f-5f44-4546-b7c1-5d322534889c" name="method" profile="CSharpProfile">
+                <elementDefinition Id="b76f4717-61da-45ce-b349-03cbb219ff27" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4eb19350-0eda-4ce2-9ee0-7cfbb8e4b2dc">
+                    <propertyInstance Id="909beab1-984d-4343-80b0-5cb291ae309a" name="ClrAttributes">
+                      <elementDefinition Id="ff00b1fc-d4da-40fe-a265-68ac45513246" />
+                    </propertyInstance>
+                    <elementDefinition Id="80f3c63f-2cad-4f22-a3d1-11bec7f11acd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="474d3100-9ad2-41ad-9acc-94e7f8249ac4">
+                    <propertyInstance Id="d68607fb-9971-4bce-b048-4150884e2a9a" name="IsPartial" value="false">
+                      <elementDefinition Id="162ca68b-7ca2-4f2f-b87f-5e463fd52cb5" />
+                    </propertyInstance>
+                    <elementDefinition Id="10a73653-c3fb-49d5-9e3e-58d1011ddbd4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="10fd6a57-2506-4510-9411-331e625ef1ec">
+                    <propertyInstance Id="28b09b13-45a1-45c6-948b-0f4f4d94c120" name="IsUnsafe" value="false">
+                      <elementDefinition Id="de53022a-d1e8-410a-ae30-7b4c87480451" />
+                    </propertyInstance>
+                    <elementDefinition Id="f07e10ef-cdfa-4602-bd7c-ac05bfc08ff1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c32b7faf-cb6b-4ec4-8c40-5350aa4efd83">
+                    <propertyInstance Id="2c0a6dad-75b6-49a2-b9c5-0d4850b7c7b5" name="Inheritance" value="none">
+                      <elementDefinition Id="d21aacd4-20ac-4095-807c-ba3b77c80328" />
+                    </propertyInstance>
+                    <elementDefinition Id="ed0a4e05-06ed-41c3-b821-2cd299fc7051" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0c991dd3-8221-4405-aa0e-c85f235e78d5">
+                    <propertyInstance Id="44cb877b-af83-4e17-868a-2bd4db34db99" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="30d300a8-df1e-4a8a-8db1-710aa6d13175" />
+                    </propertyInstance>
+                    <elementDefinition Id="5dc98d63-988d-484d-a78c-3dac9c28c6af" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="94f530f3-5f73-4440-b5f4-f8e5706f3838">
+                    <propertyInstance Id="180bba3a-ef37-41b9-b5b8-8836c0e55a72" name="params" value="false">
+                      <elementDefinition Id="bdd7db07-9e83-4cde-a967-1f471b58b44a" />
+                    </propertyInstance>
+                    <elementDefinition Id="d172b980-37df-4c3f-9ae8-cb6408701794" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="cf8ae278-64ed-4ee2-8c2b-0d2124d1f8e9" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="bc99b825-b0a6-4812-8e62-5d751ab7c7bc" name="Button" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Windows::Forms::Button">
+        <elementDefinition Id="25af1d52-f802-4ad6-a5ff-b7cdd5b8cc71" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="3d455976-ba86-4ed1-9b12-0c7760b6071b" name="DecoratedButton" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="d229e0cf-618c-4fb8-beee-79870f578065" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratedButton" tag="ViewCode">
+            <elementDefinition Id="e14e0975-5ba9-421e-8d0c-c892e51f70e2" />
+          </reference>
+        </referencesInternal>
+        <elementDefinition Id="a542a2d3-1cc5-4615-a1b5-d31262994648" />
+        <suppliersInternal>
+          <interfaceRealization Id="446296b1-c086-476c-a61b-86bed925864c">
+            <interfaceMoniker Id="7bb8a3a7-aa15-4001-945a-4d91613016c8" LastKnownName="IDecoratedButton" />
+            <elementDefinition Id="db923774-ed17-425d-a727-c380930f9955" />
+          </interfaceRealization>
+        </suppliersInternal>
+        <ownedAttributesInternal>
+          <property Id="c4b47fba-9d54-4fd2-b332-4c7458ce914b" name="m_ButtonToDecorate" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="7cc5f350-9884-4c23-857f-3f3d905047ee" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratedButton Member%3Dm_ButtonToDecorate" tag="ViewCode">
+                <elementDefinition Id="aae533f0-9d2b-45fd-85d8-05a4db4bee68" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="b7483cc6-653f-4742-8536-9090c9b75c83" name="field" profile="CSharpProfile">
+                <elementDefinition Id="6f1a3d22-5773-43a9-9fda-69afb05780c6" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4275cb84-6733-4189-8b3c-d02b6b16daeb">
+                    <propertyInstance Id="efb90fdf-14e8-4d8d-a7e3-a394140b2caa" name="ClrAttributes">
+                      <elementDefinition Id="35144574-3e2b-4d06-8bfe-11fc214e4045" />
+                    </propertyInstance>
+                    <elementDefinition Id="2b757bfa-2614-4e38-8f69-efc1ad0e153a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b34ca7bc-3619-4c5d-8c86-e5bd8b503327">
+                    <propertyInstance Id="04f1b232-bd36-428c-94a1-b793c6224165" name="IsConst" value="false">
+                      <elementDefinition Id="c77f02c6-6635-47f1-81af-420160b79c9e" />
+                    </propertyInstance>
+                    <elementDefinition Id="0a2767c0-9ae9-4e96-8197-570ab8f95fd9" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0733ebfb-cd6a-4463-a748-36351ae875ec">
+                    <propertyInstance Id="d32493df-ac33-44bc-8a52-40bf9b296a35" name="IsNullable" value="false">
+                      <elementDefinition Id="89cfbaca-4cf4-4df3-a0b2-374696c5a1d6" />
+                    </propertyInstance>
+                    <elementDefinition Id="f5aa0227-3274-4635-9ca2-ec91333df2ec" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="247809aa-dfd5-4332-8a50-2e546597d36c">
+                    <propertyInstance Id="54a77674-c612-4784-b8c6-af17b5aee343" name="IsVolatile" value="false">
+                      <elementDefinition Id="ad56b77d-f829-4f9d-b2bd-dc94a9e29c9c" />
+                    </propertyInstance>
+                    <elementDefinition Id="547301c2-6208-4fde-baf8-69340faa0f6c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6b3b7662-6696-4cb9-8120-8dbc06e8248a">
+                    <propertyInstance Id="f5cbf1fe-a3f8-4457-badd-411244c2c13b" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="fb7433a1-90e2-41d6-a3f9-f9debe545782" />
+                    </propertyInstance>
+                    <elementDefinition Id="d26ec78f-f371-4b45-84c0-2345aceb8e11" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="a1ddead7-be6a-4024-b5f1-44a1947a742c" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="bc99b825-b0a6-4812-8e62-5d751ab7c7bc" LastKnownName="Button" />
+            </type_NamedElement>
+          </property>
+          <property Id="c24aef20-ba40-4f58-9e68-a1a3991e51a7" name="m_DecoratedFatherButton" visibility="Protected" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="b79a8da3-8361-48bb-90b5-16b80403eecf" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratedButton Member%3Dm_DecoratedFatherButton" tag="ViewCode">
+                <elementDefinition Id="9fcc3635-f11d-4435-94f4-9999bde95da2" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="21752e44-6cef-43cf-99e4-6a929e215c6a" name="field" profile="CSharpProfile">
+                <elementDefinition Id="e46a6f6e-6108-4c6a-bc3b-2036b71bd27c" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1b0a918c-5433-4ff5-9674-6b1f045d1609">
+                    <propertyInstance Id="68dd3fd4-6934-4050-bf15-abbea9ffe97d" name="ClrAttributes">
+                      <elementDefinition Id="b5885c2e-0cd3-4b0b-9388-3b48268236a2" />
+                    </propertyInstance>
+                    <elementDefinition Id="8bb64454-f971-42b2-96f2-680e39d935ca" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="92e39e9d-d3e8-42cf-91fa-f7f81ab6dcf0">
+                    <propertyInstance Id="bcf736c1-f3aa-47e1-9950-dcf0d2936973" name="IsConst" value="false">
+                      <elementDefinition Id="07d70aaa-f031-4702-9f56-6e514c6b96fa" />
+                    </propertyInstance>
+                    <elementDefinition Id="f76b7be0-0800-45b9-a380-9a153c949d01" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d056b193-58d1-4763-b79e-d0995ca35894">
+                    <propertyInstance Id="f16847d7-f87b-4696-b1fe-671ca5a58bba" name="IsNullable" value="false">
+                      <elementDefinition Id="ec0995ce-5c32-4cc9-935a-708e6dc17641" />
+                    </propertyInstance>
+                    <elementDefinition Id="bf2ea0fa-0f4f-40da-adaf-62089147ec3e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4bb9086e-133f-419d-80d0-dfb133f05b8c">
+                    <propertyInstance Id="1b8c5c31-5344-45f8-b4f9-827fff8d5693" name="IsVolatile" value="false">
+                      <elementDefinition Id="2c1457d7-959c-4253-98e2-59c2786f77e2" />
+                    </propertyInstance>
+                    <elementDefinition Id="2323380a-169e-497b-a6c3-75c74a5111c5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="fd2fb74a-dc24-4458-b698-72eb360b7184">
+                    <propertyInstance Id="b5a7bca9-9940-4f7d-9519-1035e6bbddf4" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="a7cb2e53-ace3-4359-b67c-44673abe7bfb" />
+                    </propertyInstance>
+                    <elementDefinition Id="a6b08c57-cd3b-4448-b9f7-a61b27a45138" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="08bdaac9-2472-4d12-b91d-a234ccc68d72" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="3d247cb8-ecb4-4987-accf-3ec51380abe5" LastKnownName="IDecoratedButton" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="8116a5dc-04a4-4e58-bb21-6e12263492c9" name="DecoratedButton" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="aee7405f-0fe7-4345-bfad-158fdc1c186a" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratedButton Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DIDecoratedButton)])" tag="ViewCode">
+                <elementDefinition Id="c3c57a51-411d-416c-afdf-85bb5f706539" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="26dd405e-30b0-447f-8f18-97458b16a7d4" name="method" profile="CSharpProfile">
+                <elementDefinition Id="ea05bb39-032f-44e9-a93c-eda345750f71" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b684016b-cf8b-4674-94d2-a75931fd002b">
+                    <propertyInstance Id="831c5eef-ea2f-4fac-942f-66022c120a03" name="ClrAttributes">
+                      <elementDefinition Id="8362e2a6-a3f1-4370-a714-4ee40faec177" />
+                    </propertyInstance>
+                    <elementDefinition Id="4d2838c7-9fbe-43e7-ba9f-8333ebaf2f7b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c75def37-cef2-44aa-8541-a9314f10ae44">
+                    <propertyInstance Id="86656573-aef1-4028-98a6-69906e5d7054" name="IsPartial" value="false">
+                      <elementDefinition Id="cbee205f-41e8-4ee8-949a-520fef510e08" />
+                    </propertyInstance>
+                    <elementDefinition Id="7caf6425-8879-4980-950c-5112cd372bc6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a5354b4e-7e3d-42c9-9266-aa1fded94211">
+                    <propertyInstance Id="ace5d079-319d-4668-8c0a-859d9653156f" name="IsUnsafe" value="false">
+                      <elementDefinition Id="0a1ec08a-4851-4e65-8353-ef8c91a3e549" />
+                    </propertyInstance>
+                    <elementDefinition Id="448cc48b-f10a-4d0d-a970-43382b3eff28" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3ce35e62-85a9-4e06-a673-76f64e2415e7">
+                    <propertyInstance Id="eee7b633-95f6-4e4d-a399-f919f959a08f" name="Inheritance" value="none">
+                      <elementDefinition Id="21e111bb-c4e4-4053-b5a2-c73fced87ca3" />
+                    </propertyInstance>
+                    <elementDefinition Id="a87a8ee1-6444-446e-8291-86d2e0472623" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ea791649-98fd-4740-99e1-df6f02a14df5">
+                    <propertyInstance Id="f441074c-7f84-4490-b6ab-620230379b7b" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="bb35a454-a189-4e1e-ba0e-c434601842d7" />
+                    </propertyInstance>
+                    <elementDefinition Id="624b9a5e-216d-4272-a482-6bdc3af75549" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1762fc0a-8472-4599-9b8d-fd2935898231">
+                    <propertyInstance Id="28b73af9-7509-45a6-aa1c-79a35cf0b64c" name="params" value="false">
+                      <elementDefinition Id="f2d12d6b-348e-49a5-ac6b-d2d1e9d0931d" />
+                    </propertyInstance>
+                    <elementDefinition Id="efb10ee3-b75b-47e0-88b8-1ef178e3beef" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="3c2483e6-3876-4b83-8622-89e6a54a80e7" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="dce956f3-8abd-4e9a-b8bd-0e230495c40e" name="i_Button" direction="In">
+                  <referencesInternal>
+                    <reference Id="b1f19bce-2a1d-49c9-82d2-515fd6604a38" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratedButton Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DIDecoratedButton)]) ParameterIdentifier%3Di_Button" tag="ViewCode">
+                      <elementDefinition Id="efb9fef2-7b9a-4db0-a21f-9263c3ef85c1" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="61cefdb1-dc10-425c-b7e8-efdd95a78a2c" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3d247cb8-ecb4-4987-accf-3ec51380abe5" LastKnownName="IDecoratedButton" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="7aa0b333-bf99-4a71-b488-96c287730951" name="Execute" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="c8023157-05fa-4a49-afc2-f4912b3c45cf" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratedButton Member%3DExecute" tag="ViewCode">
+                <elementDefinition Id="f0d9a95c-44f9-4e0f-ba48-d4d3c798335e" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="ba85f980-2ced-4bc4-b679-a010514c1781" name="method" profile="CSharpProfile">
+                <elementDefinition Id="ae2a1445-5bc7-477e-9ecc-ebd1965efb77" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ca164015-229b-46ee-84e8-27d14f385328">
+                    <propertyInstance Id="315bd66f-46d6-406d-ade7-339cfb8c1fdb" name="ClrAttributes">
+                      <elementDefinition Id="2ac30e9f-75fd-46c3-8cbc-13b90ae7c3b5" />
+                    </propertyInstance>
+                    <elementDefinition Id="9314d1f1-10ca-42c7-b285-d56639bc0248" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="071241c3-4af0-4e88-aafc-6a9f674c4291">
+                    <propertyInstance Id="bf9bcb71-1192-434a-8453-281626934de1" name="IsPartial" value="false">
+                      <elementDefinition Id="fabd25a0-a91d-4762-93bd-3a8279b10222" />
+                    </propertyInstance>
+                    <elementDefinition Id="b4e04f07-7a2f-46ba-b6ec-ee9d88fa09a3" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b15a778e-0a91-4953-9c79-3d81fd2ce447">
+                    <propertyInstance Id="b9c62a31-c09e-4e46-8084-f5b48aea9bff" name="IsUnsafe" value="false">
+                      <elementDefinition Id="60f57359-c1c7-4f53-9687-c07f72839925" />
+                    </propertyInstance>
+                    <elementDefinition Id="cd6f8dee-cdfd-40f8-a071-13a0e25e7416" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="174adc1f-fa9d-4cd9-977b-45a25ff5c232">
+                    <propertyInstance Id="7b4365e4-3ee2-4020-8e84-93a848d78718" name="Inheritance" value="none">
+                      <elementDefinition Id="7f16e4b4-ee24-47ea-b22f-606e0104b604" />
+                    </propertyInstance>
+                    <elementDefinition Id="1db916b4-f3ae-4876-9903-1c8927bea58b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="58286b39-b546-44a7-86fb-8c1f76f6deea">
+                    <propertyInstance Id="a6c34ec0-b838-4fbc-8c86-ce7fba47cdfd" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="43bafad4-57c6-4199-a686-b0c148e34c95" />
+                    </propertyInstance>
+                    <elementDefinition Id="1af76ce8-2bd2-4e80-9361-49a26a215c67" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a6bb74e1-0249-4b64-9e34-76a664854a5c">
+                    <propertyInstance Id="daca07bd-7ff1-4bc4-8235-cb8c2bc8ca77" name="params" value="false">
+                      <elementDefinition Id="e0616b54-8df9-49d8-b93d-5b9a229428aa" />
+                    </propertyInstance>
+                    <elementDefinition Id="b2e2b68f-be8e-42b0-8978-ef2726b682a2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="900016f0-9439-45a9-95f7-e030f78d8588" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="3d247cb8-ecb4-4987-accf-3ec51380abe5" name="IDecoratedButton" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::FacebookApplication::IDecoratedButton">
+        <elementDefinition Id="607d2252-6030-48d4-9dcf-d18a78e1e969" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="65e7ddfa-62af-496b-9cdd-847447cf7b0d" name="DecoratorFont" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="9ceaf30b-8b31-4929-866d-8383604e0d5c" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorFont" tag="ViewCode">
+            <elementDefinition Id="4e6f289a-817f-4dfd-9ea6-4413d66009b1" />
+          </reference>
+        </referencesInternal>
+        <elementDefinition Id="8fa7b94c-40f8-43c9-8be6-092e0d0001cf" />
+        <generalsInternal>
+          <generalization Id="02ef5344-9d5a-498c-9744-3e3da33a4e1f" isSubstitutable="false">
+            <classMoniker Id="3d455976-ba86-4ed1-9b12-0c7760b6071b" LastKnownName="DecoratedButton" />
+            <elementDefinition Id="76276d24-a3f4-4130-a230-722a9e8f9a20" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation Id="dac9062a-9c4f-460f-b706-20542fbcebe6" name="DecoratorFont" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="46c8cc20-830d-4bdb-ad6f-8bd04427341d" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorFont Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DIDecoratedButton)])" tag="ViewCode">
+                <elementDefinition Id="471b4465-4b26-4c81-a3af-dfc5ffae0f22" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="eed7a21d-62f9-4f1b-8ccd-2d2611dbe88a" name="method" profile="CSharpProfile">
+                <elementDefinition Id="43f74783-69ae-40f5-91b0-354ecc202e16" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="bff84ff2-4cb5-495c-871b-eb82eb782dda">
+                    <propertyInstance Id="7a773d56-9b46-423e-849c-60b60a4a8dc2" name="ClrAttributes">
+                      <elementDefinition Id="e5bce5c4-74c2-4f89-ba3b-397c0b7ded0f" />
+                    </propertyInstance>
+                    <elementDefinition Id="e6287f71-51c2-441f-827f-680e6a7f1ae8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="0c85bdd3-2df7-42cf-a486-c818f0f159b6">
+                    <propertyInstance Id="bc8adfce-6817-4ccc-b53e-fe41a19a0f49" name="IsPartial" value="false">
+                      <elementDefinition Id="233a8219-e02c-4216-b6b2-64be05103107" />
+                    </propertyInstance>
+                    <elementDefinition Id="363442d1-99a7-4dcc-b672-693aabc51cb1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="86c91c40-c403-4859-ac89-b2a8984a4b08">
+                    <propertyInstance Id="57900cad-0349-445a-9add-60e56cab179c" name="IsUnsafe" value="false">
+                      <elementDefinition Id="4e8fadcd-b214-45fb-a146-3a0f5c1e68b7" />
+                    </propertyInstance>
+                    <elementDefinition Id="eecc379c-1805-4941-a7ae-b37acb9920a1" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6768246b-c751-41a7-b9e1-6e4b6306f952">
+                    <propertyInstance Id="00defbad-e1ea-466a-ae25-116f923d6b02" name="Inheritance" value="none">
+                      <elementDefinition Id="5a6d598d-9a4f-4260-89b6-758b47f00668" />
+                    </propertyInstance>
+                    <elementDefinition Id="7da9a1e4-b8ae-4688-979d-ff9f46e35019" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="9b194e34-c17c-4769-a899-649cdefc5452">
+                    <propertyInstance Id="7dc9254c-d906-42ff-bda3-1c7b885c1d94" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="eb25835a-ece1-4639-a700-445e408e7acd" />
+                    </propertyInstance>
+                    <elementDefinition Id="47fafea5-6f32-45c2-84c5-2f7260af5dc8" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c0e1943d-9139-4996-9c74-9e674c9af4ff">
+                    <propertyInstance Id="2c87f2ea-5f77-45fc-9838-3a3d5c5c8b81" name="params" value="false">
+                      <elementDefinition Id="4a8ec90e-231f-4436-8caa-f6bc22cd0e26" />
+                    </propertyInstance>
+                    <elementDefinition Id="225012d4-4ba6-4e95-ba3c-479c2b1f872f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="2d71721f-dee7-4c26-ba75-3ccb2015146f" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="ba61fece-febd-476c-a4a5-5a80bce8a65f" name="i_DecoratedButton" direction="In">
+                  <referencesInternal>
+                    <reference Id="918ac0f3-d7fe-498a-b2c8-19caec54daf3" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorFont Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DIDecoratedButton)]) ParameterIdentifier%3Di_DecoratedButton" tag="ViewCode">
+                      <elementDefinition Id="7e4d4768-c706-4017-b55e-c6cdf3bb897c" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="80711b31-d43f-4496-a8c1-8ef0b414aced" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3d247cb8-ecb4-4987-accf-3ec51380abe5" LastKnownName="IDecoratedButton" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="260f72e2-bf23-45d3-84a7-595c7ea34b3f" name="Execute" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="cf0135ef-508a-4f8d-bb59-a7ace1de5e62" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorFont Member%3DExecute" tag="ViewCode">
+                <elementDefinition Id="d4f9efd5-ff53-41c4-89f4-2bc1d3936aad" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="0ee01ab2-8997-47ce-a3fa-b619239349d6" name="method" profile="CSharpProfile">
+                <elementDefinition Id="cd959897-2f40-4776-be7e-18140b545aa5" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="43917d4c-8e2e-41cb-9813-d09834ee4b98">
+                    <propertyInstance Id="217d8091-6c6e-4551-960f-c8fa8c9d4b76" name="ClrAttributes">
+                      <elementDefinition Id="a7879288-f1e9-483c-88da-58afa192cd00" />
+                    </propertyInstance>
+                    <elementDefinition Id="9f50dec0-6ad5-4f66-ae02-e5b536478aef" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="cd0688a9-4bf7-44b2-acef-38c98473f80c">
+                    <propertyInstance Id="a2f010b8-a8d3-4a6f-8634-2e125ebc2de0" name="IsPartial" value="false">
+                      <elementDefinition Id="bca6680a-fd53-410b-ad03-36622da5902b" />
+                    </propertyInstance>
+                    <elementDefinition Id="0c5d88f2-2c20-4166-bf8b-1a12ca0b739d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="343f955b-dd38-474a-a739-d1d5908a0071">
+                    <propertyInstance Id="c060f3cf-9602-4fb7-ba96-8bdb8b80a835" name="IsUnsafe" value="false">
+                      <elementDefinition Id="83f98986-3932-4267-a4a9-7c796b5e176a" />
+                    </propertyInstance>
+                    <elementDefinition Id="2c6c4b6f-806e-424f-8d04-2a31a193ea58" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f82f601a-e2d3-431d-b3ad-72152ecf4fa1">
+                    <propertyInstance Id="3741e2fd-6f99-472b-8f1e-6e8688125098" name="Inheritance" value="none">
+                      <elementDefinition Id="da202bcd-cdf9-4152-87f6-7aff21459984" />
+                    </propertyInstance>
+                    <elementDefinition Id="e3046b6d-f765-4565-879d-e28f964f267a" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="57244d40-fa8e-48d3-aef9-6d182690ca8e">
+                    <propertyInstance Id="bd51348b-9318-4d10-818f-9522e01126e8" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="0f280315-5a03-4ac3-a75d-de5e82cdb099" />
+                    </propertyInstance>
+                    <elementDefinition Id="f5127eeb-69de-4651-b67c-9663b0e99a8e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="3fc60b81-dcb8-4c0e-9697-16df30902e2a">
+                    <propertyInstance Id="90974d91-4fa2-4729-9423-612ebd12bd55" name="params" value="false">
+                      <elementDefinition Id="8f650350-c5ca-4355-8b43-110b05071747" />
+                    </propertyInstance>
+                    <elementDefinition Id="72138dc6-451a-43ba-8417-55642b69a62e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="f82b247c-52bf-4b2d-b906-64464ba724a5" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="b69db346-3645-4c7f-9cfd-6eccbb12309d" name="DecoratorSetBackground" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="b4afa34e-2e63-4eb2-b268-4cd19846c178" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorSetBackground" tag="ViewCode">
+            <elementDefinition Id="a890e3b2-4fb8-491a-8f26-05fbccef250e" />
+          </reference>
+        </referencesInternal>
+        <elementDefinition Id="e7895b7c-d898-4e12-9065-801a3323c85f" />
+        <generalsInternal>
+          <generalization Id="d4898881-5343-4e2d-ba83-1160046f6efc" isSubstitutable="false">
+            <classMoniker Id="3d455976-ba86-4ed1-9b12-0c7760b6071b" LastKnownName="DecoratedButton" />
+            <elementDefinition Id="652fdc99-8b84-41da-a0c8-409c8ad97baf" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="3734652b-e63f-4058-b9a6-2a10916a364f" name="m_Color" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="fcb48c7b-3ec0-46d0-9866-919e6ae2ff5c" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorSetBackground Member%3Dm_Color" tag="ViewCode">
+                <elementDefinition Id="a9fef52b-455a-48d4-9a06-2f6cf31f448b" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="47d1fe75-efe8-4e34-ac66-c1a84a9cd414" name="field" profile="CSharpProfile">
+                <elementDefinition Id="d761bcd3-cf00-4089-88b9-30963c78955a" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b8328937-59b2-4879-b3ba-4791402dfc9a">
+                    <propertyInstance Id="b9d126cb-dca6-422b-92f3-7f1d910aaba9" name="ClrAttributes">
+                      <elementDefinition Id="d0a4e451-f21a-41a0-9472-1a3ca2c7517c" />
+                    </propertyInstance>
+                    <elementDefinition Id="f096598a-6fc5-4e99-bc06-f7a1d75164fd" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="c5c66ae8-71a2-4caf-8f1b-2049ccc90b8a">
+                    <propertyInstance Id="1ad330da-564f-4f77-9d58-e7fbd78d2ecc" name="IsConst" value="false">
+                      <elementDefinition Id="d1af17fb-3c07-4128-a2b7-7067ef962bcc" />
+                    </propertyInstance>
+                    <elementDefinition Id="1a7b841f-8e88-4ab0-96f0-3802c8ba089e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="54782a9c-77a1-498d-8bf3-8b9782146e30">
+                    <propertyInstance Id="90b73092-f2be-4c5a-b959-ffbd51a5a378" name="IsNullable" value="false">
+                      <elementDefinition Id="bd0538ca-d0d3-4eac-9c0f-70b50e14a77d" />
+                    </propertyInstance>
+                    <elementDefinition Id="0c211af8-40c0-4a04-b821-a7ae2826c140" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="af27dfc0-da90-4998-9de2-efcb2a9daa9c">
+                    <propertyInstance Id="1847bab8-776a-46a3-8134-97cb59b5ce31" name="IsVolatile" value="false">
+                      <elementDefinition Id="1aa3eca8-2ebe-433d-9817-0e22395558d5" />
+                    </propertyInstance>
+                    <elementDefinition Id="4da058cb-ae73-400d-bef6-d2a642a2664f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5614b00f-b9c3-44f1-9448-43762e66d038">
+                    <propertyInstance Id="b3c483cb-837b-4a12-b551-48008f8f4cd4" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="5380d6bd-f118-4fdd-8acf-eae5206f0b33" />
+                    </propertyInstance>
+                    <elementDefinition Id="76129af9-63c9-48cf-b0ce-0ee261d5fd35" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="2ea1ed08-67de-45c6-acd0-52d03f7cfe43" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1922adb2-4631-410e-ae39-8ee9351d75eb" LastKnownName="Color" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="d35d9bd2-e0d4-4f5d-a95e-a39464f1144c" name="DecoratorSetBackground" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="8575f992-6978-40fe-9074-099e004e273d" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorSetBackground Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DIDecoratedButton)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.Drawing.dll&quot; Namespace%3DSystem.Drawing Type%3DColor)])" tag="ViewCode">
+                <elementDefinition Id="f0fd4fe2-070b-414e-91e5-73ff646ec0a9" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="436e64d3-1688-481a-ba7a-e4a15dd7a908" name="method" profile="CSharpProfile">
+                <elementDefinition Id="989d026f-077f-48d6-8459-d417207d6a75" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="a800ae28-a629-4794-a654-3a7f3b017b44">
+                    <propertyInstance Id="f0debea9-37e3-46f4-9f05-c7f3a40c6266" name="ClrAttributes">
+                      <elementDefinition Id="3af9f21f-79d8-431a-a275-e4a85f7ec5ad" />
+                    </propertyInstance>
+                    <elementDefinition Id="26619f6d-c0c3-4fd0-b2ed-f75fe7fe1f5d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="71ab67c0-c965-422f-a458-f7690d9f0ae0">
+                    <propertyInstance Id="fcb88da7-fb1c-4181-89e8-bf6d67297e7d" name="IsPartial" value="false">
+                      <elementDefinition Id="648df889-eb36-4abf-b98e-16dfc6ba5f78" />
+                    </propertyInstance>
+                    <elementDefinition Id="1744c98c-dba8-4925-9bb8-348f9e2baff6" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="492f0536-b59b-446a-ad38-c719ff317f09">
+                    <propertyInstance Id="93cc4d68-b5f9-41ec-9303-fafc1a4e127a" name="IsUnsafe" value="false">
+                      <elementDefinition Id="9609b34f-2d90-4b9f-ac97-7db426bf6ba1" />
+                    </propertyInstance>
+                    <elementDefinition Id="7098a1e5-6f0e-4904-b850-f580710e506c" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="abd21f8d-d3e1-467d-ab43-2a9509dac679">
+                    <propertyInstance Id="2018bfe6-e3d4-4663-9212-84af00e7d3c7" name="Inheritance" value="none">
+                      <elementDefinition Id="5707510e-e848-4aaf-81e5-c2a75220e73a" />
+                    </propertyInstance>
+                    <elementDefinition Id="7f94686e-f432-417d-a402-b29295fb554d" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d6bf8ac3-626d-4999-9f9b-fd8707210208">
+                    <propertyInstance Id="99a0b336-29ce-4364-b9e7-cf01b369984e" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="444b377f-6f77-4c57-b6e1-f635377add09" />
+                    </propertyInstance>
+                    <elementDefinition Id="17ef4aa7-2793-49da-9e4f-dd9230d33fe4" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b3725211-7194-419e-b01c-3218c08050a4">
+                    <propertyInstance Id="f2150474-61d9-4462-9e8f-bc82dc2411c9" name="params" value="false">
+                      <elementDefinition Id="99f4165e-739f-40cb-9e08-4b3ebdd6194c" />
+                    </propertyInstance>
+                    <elementDefinition Id="44b98add-5379-44d1-8ccc-38194ce66187" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="d83209e4-5cce-4a09-b494-deaadde69a9c" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="6af69e6b-cfa2-4688-a31a-a8db995a9f0f" name="i_DecoratedButton" direction="In">
+                  <referencesInternal>
+                    <reference Id="d98bbea8-c6a3-4385-86df-d9e8f51374eb" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorSetBackground Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DIDecoratedButton)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.Drawing.dll&quot; Namespace%3DSystem.Drawing Type%3DColor)]) ParameterIdentifier%3Di_DecoratedButton" tag="ViewCode">
+                      <elementDefinition Id="35c37df5-e23d-4e6c-ae75-d15833ed85e6" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="e2c4ea9a-2c06-4643-b586-ddb72038ea5a" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3d247cb8-ecb4-4987-accf-3ec51380abe5" LastKnownName="IDecoratedButton" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="51fed181-7923-46e3-afa2-1034548f3b12" name="i_Color" direction="In">
+                  <referencesInternal>
+                    <reference Id="91143971-7e5a-4a46-95a0-a8fb4f96f1ae" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorSetBackground Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DIDecoratedButton)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2FSystem.Drawing.dll&quot; Namespace%3DSystem.Drawing Type%3DColor)]) ParameterIdentifier%3Di_Color" tag="ViewCode">
+                      <elementDefinition Id="a85cc219-65b4-43c2-a9c6-5c29c4629871" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="abff406a-ca2a-4b4f-970c-d28fba5cb1b9" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1922adb2-4631-410e-ae39-8ee9351d75eb" LastKnownName="Color" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="4181f2af-f924-4777-96d1-dd94add74eec" name="Execute" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="88072ee5-68f8-496e-a999-b4183c88b2fe" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorSetBackground Member%3DExecute" tag="ViewCode">
+                <elementDefinition Id="ca39d583-8726-4269-8d02-f3c3ab456a8f" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="063232c4-b7c6-40cd-ad42-0446ce04cd7d" name="method" profile="CSharpProfile">
+                <elementDefinition Id="c0ae33f4-d479-4198-a55c-eb55b0d7fee3" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="f8760fad-d270-4dbd-8f7e-199f4259b50c">
+                    <propertyInstance Id="b175fc10-0cbc-4609-9ff6-c19425129e92" name="ClrAttributes">
+                      <elementDefinition Id="01023b26-68cc-4761-adaf-d868e481cdf5" />
+                    </propertyInstance>
+                    <elementDefinition Id="c056692f-3fb7-41d3-bcc9-6b19300cf46b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e851486d-bef0-4dc6-96d4-3f07e9d5fa54">
+                    <propertyInstance Id="c73256a3-24bd-4567-83a3-ebdbdb8f7cfb" name="IsPartial" value="false">
+                      <elementDefinition Id="c0e77153-cefd-43e1-879c-9af10ab1e1a3" />
+                    </propertyInstance>
+                    <elementDefinition Id="c5be8f00-3c52-4229-a6eb-a6533a0a7a37" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="99db8ce5-d35b-443c-8b6b-64f7eec9f8aa">
+                    <propertyInstance Id="a193bfc2-d9f3-4dac-b614-49263a70da2f" name="IsUnsafe" value="false">
+                      <elementDefinition Id="b967dc03-03e8-435c-8d09-4f4173b0facc" />
+                    </propertyInstance>
+                    <elementDefinition Id="acdc5371-49cd-4879-8fd4-870783cf8753" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="75d51b3f-6eff-48c2-b6c5-47f70ff388f9">
+                    <propertyInstance Id="8adfd7b9-3502-4838-a363-8b9b9e450523" name="Inheritance" value="none">
+                      <elementDefinition Id="e41f6b65-280e-4b98-94cb-a01e021ef21f" />
+                    </propertyInstance>
+                    <elementDefinition Id="a2ce7f2a-0cff-44ac-8d2f-552c53238870" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1b8efc1d-b04e-4c88-8286-9a0123304176">
+                    <propertyInstance Id="32311eb3-b134-4c74-8f52-fc2508788fa4" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="da29efef-414a-4572-9598-ae072d8d7f4e" />
+                    </propertyInstance>
+                    <elementDefinition Id="33a4739d-1a6e-45c9-b288-56c1dd8b63df" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="22d182c6-70c3-4226-8fc9-ea2bc3a4c91a">
+                    <propertyInstance Id="dab36beb-49e8-4e8e-b12c-c460e841ad4f" name="params" value="false">
+                      <elementDefinition Id="99282938-faf1-4952-a5ff-f13ef7c53674" />
+                    </propertyInstance>
+                    <elementDefinition Id="49752c9c-ca09-4d88-bc26-e595ac1b49c5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="cdb531fe-5c00-4d33-ae08-ed326e7d7522" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="1922adb2-4631-410e-ae39-8ee9351d75eb" name="Color" isAbstract="false" isLeaf="false" cachedFullName="ModelingProject1::System::Drawing::Color">
+        <elementDefinition Id="8f0a8f80-4f25-4fd4-8895-3b68a71ad646" />
+      </referencedType>
+    </packageHasNamedElement>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="d415d880-ad2d-46fa-b748-4241911d1e13" name="DecoratorText" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <referencesInternal>
+          <reference Id="02c4507c-5fe8-40c4-8487-26d159f91059" handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorText" tag="ViewCode">
+            <elementDefinition Id="17561f80-6dd6-44ec-931b-cd43e46386b2" />
+          </reference>
+        </referencesInternal>
+        <elementDefinition Id="17894ec9-331f-44e9-9014-a9ff6d153041" />
+        <generalsInternal>
+          <generalization Id="1c0d60e0-3de4-48a7-a1cd-09d226430c6b" isSubstitutable="false">
+            <classMoniker Id="3d455976-ba86-4ed1-9b12-0c7760b6071b" LastKnownName="DecoratedButton" />
+            <elementDefinition Id="eaaa6635-34d3-422c-a86c-024eb87407cf" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property Id="b77f602b-2ec2-4d5f-80ec-ed41b9492119" name="m_text" visibility="Private" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <referencesInternal>
+              <reference Id="5f8bc9b9-3a42-472f-acc9-6a50aab39d0e" handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorText Member%3Dm_text" tag="ViewCode">
+                <elementDefinition Id="6a3ba622-5b46-48a1-9af4-99c251e435f2" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="2ba7bdee-ea85-4e58-8aac-2afc34828b8a" name="field" profile="CSharpProfile">
+                <elementDefinition Id="135ccd51-ae6b-4c0d-8ee0-ab276fb96959" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="6ed656cd-3c3e-4dff-8629-bde964774503">
+                    <propertyInstance Id="9480d64a-de6b-4bce-8af6-b4a78b9d1de8" name="ClrAttributes">
+                      <elementDefinition Id="0c6b40b9-857a-4804-aed4-e7259d55440d" />
+                    </propertyInstance>
+                    <elementDefinition Id="bb00920f-c01c-4ed9-8d63-36043c0880ca" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="e053e5ec-8069-4166-a43b-5a6c636c6b13">
+                    <propertyInstance Id="bd3c5852-afc6-4666-b68a-d0fd5bf64ca9" name="IsConst" value="false">
+                      <elementDefinition Id="bd8f7013-d6c3-46f9-bc87-2c3b0bf836c2" />
+                    </propertyInstance>
+                    <elementDefinition Id="f0197c32-00fc-4fea-ab8d-d081c90a9478" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="1b7b7e47-d457-4151-a3f4-ed080ec40c23">
+                    <propertyInstance Id="80927d6c-42bd-4c53-836b-f6c0b5e807cb" name="IsNullable" value="false">
+                      <elementDefinition Id="7838377d-96ba-4614-a588-1f82223e0e59" />
+                    </propertyInstance>
+                    <elementDefinition Id="64bf5725-d9b6-4db0-a9e9-cd21d6770e8f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="b7e9f932-4b74-46a7-91c5-689049175739">
+                    <propertyInstance Id="526c570b-9787-4b5f-a756-0325d1f7b48b" name="IsVolatile" value="false">
+                      <elementDefinition Id="f3726e9c-497c-49e2-9ca3-e9520a87c21b" />
+                    </propertyInstance>
+                    <elementDefinition Id="203d7a24-d160-4368-a51d-8758af33d482" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="ef398f7d-0bf7-4596-a5a9-4fd3496ebbd1">
+                    <propertyInstance Id="09f5dd06-d4bb-438c-aa10-0bd5329b509c" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="0649a980-aa82-47b4-a08b-99dedf6f72e2" />
+                    </propertyInstance>
+                    <elementDefinition Id="345c2f85-8f78-4f21-8984-2886c34197ec" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="b8f17f84-22df-46f8-8405-cc6924c317e6" />
+            <type_NamedElement>
+              <referencedTypeMoniker Id="1394da6e-54d2-46ac-8606-80dcd3eb28e6" LastKnownName="String" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="faa0e13e-1b5c-4cfb-aea3-01be6f08cac3" name="DecoratorText" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="fd95cc45-8cf6-4399-8351-63f8756c212d" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorText Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DIDecoratedButton)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])" tag="ViewCode">
+                <elementDefinition Id="7effdccd-6756-4d8d-8e00-4d6621c1406a" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="e8004bdb-8394-4aa8-8f1f-653400443753" name="method" profile="CSharpProfile">
+                <elementDefinition Id="b3003a8b-1d9d-42f9-8e59-56feccc17853" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="27169fec-9d8f-436e-9c1b-c0fa835396cd">
+                    <propertyInstance Id="06f808a2-e0aa-4179-a1b0-982a34342041" name="ClrAttributes">
+                      <elementDefinition Id="4b2917f5-6fdd-43f3-95e8-340fe2af1742" />
+                    </propertyInstance>
+                    <elementDefinition Id="35c02872-9daf-4cfe-a16b-a139511e6846" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="80fd4b38-500f-4988-971f-6aeead9a5358">
+                    <propertyInstance Id="8b6892e2-8476-4106-bbb8-35fb1130ceb4" name="IsPartial" value="false">
+                      <elementDefinition Id="e63f709e-8255-4642-8906-5c9437c05811" />
+                    </propertyInstance>
+                    <elementDefinition Id="2ce32f49-4e7b-4a5e-905b-a14e0c6e4cb0" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="38f6fc76-c143-4b24-9e09-2cc23016771c">
+                    <propertyInstance Id="7841b072-fa31-4b91-a68e-5decca0fa353" name="IsUnsafe" value="false">
+                      <elementDefinition Id="ef13eb14-d7b2-475f-8133-912f3bd25f86" />
+                    </propertyInstance>
+                    <elementDefinition Id="170958ce-8e04-43a9-bc31-c492b0857546" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="109765e7-27ec-4b5f-9051-98312c9b231e">
+                    <propertyInstance Id="d0ac9fb2-ef16-4ff9-9bf7-570ff215d202" name="Inheritance" value="none">
+                      <elementDefinition Id="e29877c9-64b0-444c-b4bb-93125b98490e" />
+                    </propertyInstance>
+                    <elementDefinition Id="95f57e6b-2eca-4911-be7f-545fffa2db5b" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="d9d612fd-eba5-4316-9e8f-d033d9310dfe">
+                    <propertyInstance Id="2c4c8564-6ba8-4a1c-ac9c-24cb1e2dd120" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="c563ab1e-d48d-47ad-a8da-265164805f40" />
+                    </propertyInstance>
+                    <elementDefinition Id="d5f0dba6-24d8-4874-bc7d-62c3be1babf5" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="5f6bd10f-a997-484f-96b7-c60aa2d459ff">
+                    <propertyInstance Id="87f00a02-24da-4daa-9a23-0afcd7c2f059" name="params" value="false">
+                      <elementDefinition Id="9cb09981-9e6f-412b-8838-949cf0f6567a" />
+                    </propertyInstance>
+                    <elementDefinition Id="ba97ed84-483c-4dc5-9390-a2ea1f136968" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="62d394cd-118b-4d57-95e0-5d81c0538f4f" />
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="cb945f3d-2e13-49d6-b4b5-75c3fa4caa8a" name="i_DecoratedButton" direction="In">
+                  <referencesInternal>
+                    <reference Id="de5d4efc-fa23-4f19-90f1-70edc3cdae37" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorText Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DIDecoratedButton)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Di_DecoratedButton" tag="ViewCode">
+                      <elementDefinition Id="18ad82d8-c1b4-4ce2-9895-59ede8514a3b" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="86a252fb-8c2a-4f68-8948-9fc51f52b649" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="3d247cb8-ecb4-4987-accf-3ec51380abe5" LastKnownName="IDecoratedButton" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter Id="97520d45-a1b8-456c-9acf-da679ddb4468" name="i_text" direction="In">
+                  <referencesInternal>
+                    <reference Id="01847c65-267f-4fef-834d-0db1a89a13cd" handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorText Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DIDecoratedButton)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Di_text" tag="ViewCode">
+                      <elementDefinition Id="e8e0650b-103a-4a67-89f9-3a1d6c284613" />
+                    </reference>
+                  </referencesInternal>
+                  <elementDefinition Id="9665bc5f-9672-43f7-a521-0f9ca2a5beaf" />
+                  <type_NamedElement>
+                    <referencedTypeMoniker Id="1394da6e-54d2-46ac-8606-80dcd3eb28e6" LastKnownName="String" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation Id="bd2dc45b-ccdd-4be4-847d-1bf4b151d9ce" name="Execute" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <referencesInternal>
+              <reference Id="fcbd4d89-a9ab-4b3d-84bb-513c0fa3292f" handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fbin%2FDebug%2FFacebookApplication.exe&quot; Namespace%3DFacebookApplication Type%3DDecoratorText Member%3DExecute" tag="ViewCode">
+                <elementDefinition Id="df6f7494-298e-45ec-bac2-196c71fc6581" />
+              </reference>
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance Id="ab533df0-c853-4862-bdae-db618798d4bf" name="method" profile="CSharpProfile">
+                <elementDefinition Id="c3585ef8-ba7f-46da-8d88-f0d41c16ab11" />
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="4803dd8c-a6f6-4e24-bd78-0e3fc4e686c3">
+                    <propertyInstance Id="59d03185-b032-43a3-af13-4be672b9a59c" name="ClrAttributes">
+                      <elementDefinition Id="373ed649-5e71-47d0-8fd1-01f98f64aafd" />
+                    </propertyInstance>
+                    <elementDefinition Id="1a911c0e-dfde-4d9a-a91d-30169a29b6e2" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="64ccdb65-9a3c-4b71-ac41-2f89356c7f4b">
+                    <propertyInstance Id="b8db8277-a4da-4319-8dd0-5224d5431133" name="IsPartial" value="false">
+                      <elementDefinition Id="f533a695-4476-4bf4-bfe4-082f53c4f722" />
+                    </propertyInstance>
+                    <elementDefinition Id="83c356f4-4b3e-4bd8-9596-868482f7f519" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="dd08ab0e-08c4-4e1e-89c3-79c88999b6a8">
+                    <propertyInstance Id="c6dc3e4e-f9ed-4eea-b6fd-9a6b7547e1ed" name="IsUnsafe" value="false">
+                      <elementDefinition Id="31ed05f8-d862-4280-84fc-469eba2ee0ed" />
+                    </propertyInstance>
+                    <elementDefinition Id="5fb15908-30e0-4f99-a1b1-cae195677fb7" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="08dc04e8-b589-4a6a-9f3f-834c97b4159e">
+                    <propertyInstance Id="54882c3c-5f69-49cb-b469-10fbac091cab" name="Inheritance" value="none">
+                      <elementDefinition Id="a026db18-415f-4432-8c03-9493b7d9367b" />
+                    </propertyInstance>
+                    <elementDefinition Id="01faa0be-b171-46af-96fc-d6898512c47e" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="59bd6a4e-1f4a-4c73-9888-43d56fb05156">
+                    <propertyInstance Id="4ab13f03-3040-4236-acff-bd7564718391" name="PackageVisibility" value="internal">
+                      <elementDefinition Id="d488f91d-7321-4207-a805-5262520889bf" />
+                    </propertyInstance>
+                    <elementDefinition Id="b2db8607-e25b-4fdc-8156-9dd97569ed9f" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances Id="10e44a63-50c3-480b-b201-42a5cf93b899">
+                    <propertyInstance Id="8ed287d3-ac53-4b75-b790-09809f2bf5d6" name="params" value="false">
+                      <elementDefinition Id="187c6ca6-efe2-4fe5-97f1-f4a51050d2b2" />
+                    </propertyInstance>
+                    <elementDefinition Id="bea56184-cb7c-4526-b2a9-6077cba767be" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <elementDefinition Id="5c45baf8-b170-45a0-b67c-fa17d304909a" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <packageHasNamedElement>
+      <referencedType Id="1394da6e-54d2-46ac-8606-80dcd3eb28e6" name="String" isAbstract="false" isLeaf="false" cachedFullName="String">
+        <elementDefinition Id="59259974-6d55-42c6-b7bd-763d77ac8ef9" />
+      </referencedType>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="d8e73b0c-5a62-4694-9572-b26a82c05354" name="ModelingProject1">
+    <elementDefinition Id="46e2731c-1731-4aec-867e-f1b4e86a236e" />
+  </package>
+</logicalClassDesignerModel>

@@ -1,1 +1,73 @@
-﻿
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner" xmlns:dm9="http://schemas.microsoft.com/VisualStudio/TeamArchitect/SequenceDesigner"
+  dslVersion="1.0.0.0"
+  Id="6f796483-abc7-4ccf-827a-3741beea844f"
+  name="AxShockwaveFlashObjects"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="39d3da21-936c-47cb-a7e3-5bb2ae325176"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DAxShockwaveFlashObjects"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="795d8471-17f1-426d-ab2c-bb2e7d57fd8f"
+        name="AxShockwaveFlash"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="27152bde-576c-441d-a2cf-c9783c038884"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FSources%2FDP.Ex03%2FA16 Ex02 OnnHachmon 300502465%2FA16 Ex02 OnnHachmon 300502465%2FFacebookApplication%2Fobj%2FDebug%2FAxInterop.ShockwaveFlashObjects.dll&quot; Namespace%3DAxShockwaveFlashObjects Type%3DAxShockwaveFlash"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4b4a40cb-9f3b-4f65-ba6c-9fdc3a27d1a4"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0006ce67-a6ae-4f6b-bd79-1a785afa8fcd">
+                <propertyInstance
+                  Id="9e85711e-e9e7-4bec-b3d4-82c54c145dff"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="4f4d9ff5-191d-4bfa-9d2e-d2d8292458c0">
+                <propertyInstance
+                  Id="88dfba82-7945-4d6c-b859-669cc0024c10"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="36aae866-2867-4ad6-8aac-f9fd8d7059a1">
+                <propertyInstance
+                  Id="a9388146-d255-49d1-94da-a046c417a1fb"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="04f39ffe-8cd3-4ab2-9da6-bb876a1880cf">
+                <propertyInstance
+                  Id="7c59e7e7-846c-4ecc-9158-422036edab1b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="fde3626e-1845-4938-a3bc-24001e48ed26">
+                <propertyInstance
+                  Id="2475e19a-7a26-42ae-ab7c-7b769bbb5cd5"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

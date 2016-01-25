@@ -6,31 +6,22 @@
   <MessageClass Name="Error" Label="Error" Option="Show errors" />
   <MessageClass Name="Property" Label="Property" Option="Show metadata" />
   <MessageClass Name="Diagnostic" Label="Message" Option="Show diagnostic messages" />
-  <Message Timestamp="2016-01-25T01:22:41" Importance="High" Text="Reverse Engineering Started." />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Boolean' -  (PrimitiveType)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'Integer' -  (PrimitiveType)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication' -  (Package)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::PageIterator' -  (Class)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::PageIterator::Current' -  (Property)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::PageIterator::CurrentName' -  (Property)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::PageIterator::GetPagesCount' -  (Operation)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::PageIterator::m_Count' -  (Property)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::PageIterator::m_CurrentIndex' -  (Property)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::PageIterator::m_Pages' -  (Property)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::PageIterator::MoveNext' -  (Operation)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::PageIterator::PageIterator' -  (Operation)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::PageIterator::PageIterator::i_PageList' -  (Parameter)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::PageIterator::Reset' -  (Operation)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::PagesCollectionIterator' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System' -  (Package)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections' -  (Package)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Collections::IEnumerator' -  (Interface)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::System::Object' -  (Class)   (partially reverse engineered - definition not updated) " />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::FacebookApplication::PageIterator to ModelingProject1::System::Object (Association)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::FacebookApplication::PageIterator to ModelingProject1::System::Collections::IEnumerator (InterfaceRealization)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::FacebookApplication::PagesCollectionIterator to ModelingProject1::System::Collections::IEnumerable (InterfaceRealization)" />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="High" Text="(1) type(s) fully reverse engineered." />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="High" Text="(3) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
-  <Message Timestamp="2016-01-25T01:22:42" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="High" Text="Reverse Engineering Started." />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication' -  (Package)" />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::DecoratedButton' -  (Class)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="Medium" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::DecoratorText' -  (Class)" />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::DecoratorText::DecoratorText' -  (Operation)" />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::DecoratorText::DecoratorText::i_DecoratedButton' -  (Parameter)" />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::DecoratorText::DecoratorText::i_text' -  (Parameter)" />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::DecoratorText::Execute' -  (Operation)" />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::DecoratorText::m_text' -  (Property)" />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'ModelingProject1::FacebookApplication::IDecoratedButton' -  (Interface)   (partially reverse engineered - definition not updated) " />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="Diagnostic" Text="Element reverse engineered into the UML model: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::FacebookApplication::DecoratorText to ModelingProject1::FacebookApplication::DecoratedButton (Generalization)" />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::FacebookApplication::DecoratedButton to ModelingProject1::FacebookApplication::IDecoratedButton (InterfaceRealization)" />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::FacebookApplication::DecoratorFont to ModelingProject1::FacebookApplication::DecoratedButton (Generalization)" />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="Diagnostic" Text="Relationship reverse engineered into the UML model: ModelingProject1::FacebookApplication::DecoratorSetBackground to ModelingProject1::FacebookApplication::DecoratedButton (Generalization)" />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="High" Text="(1) type(s) fully reverse engineered." />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="High" Text="(2) type(s) partially reverse engineered.  These types were not included in the original selection so their full definitions are not reverse engineered.  Instead, this shallow operation has simply ensured these types exist in the UML model because they are needed in order to fully describe other elements." />
+  <Message Timestamp="2016-01-25T02:11:05" Importance="High" Text="The reverse engineering operation completed with (0) error(s), and (0) warning(s)." />
 </Log>
